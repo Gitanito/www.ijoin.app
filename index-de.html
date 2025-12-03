@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>bindabei - Die einfachste Event-Planung</title>
+    <meta name="description" content="Erstelle Events und lade Gäste ein – ganz ohne Anmeldung. Der einfachste Weg für Zusagen, Absagen und Updates.">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <style>
+        body { font-family: 'Inter', sans-serif; }
+        .hero-gradient {
+            /* CI-Farben: #0c2664 (Dunkelblau) bis #3f91cb (Hellblau) */
+            background: linear-gradient(135deg, #0c2664 0%, #3f91cb 100%);
+        }
+        .blob {
+            position: absolute;
+            opacity: 0.3;
+            filter: blur(40px);
+            z-index: -1;
+        }
+    </style>
+</head>
+<body class="text-gray-800 bg-gray-50 antialiased">
+
+    <!-- Navigation -->
+    <nav class="bg-white shadow-sm sticky top-0 z-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between h-16 items-center">
+                <div class="flex items-center">
+                    <!-- Logo in CI-Dunkelblau -->
+                    <span class="text-2xl font-bold text-[#0c2664] tracking-tight">
+                        <i class="fa-solid fa-calendar-check mr-2"></i>bindabei
+                    </span>
+                </div>
+                <div class="hidden md:flex space-x-8">
+                    <!-- Hover-Effekt in CI-Hellblau -->
+                    <a href="#funktionen" class="text-gray-600 hover:text-[#3f91cb] transition">Funktionen</a>
+                    <a href="#wie-es-geht" class="text-gray-600 hover:text-[#3f91cb] transition">So geht's</a>
+                    <a href="#vorteile" class="text-gray-600 hover:text-[#3f91cb] transition">Vorteile</a>
+                </div>
+                <div>
+                    <!-- Button in CI-Dunkelblau -->
+                    <a href="#" class="bg-[#0c2664] hover:bg-[#0a1f52] text-white font-medium py-2 px-5 rounded-full transition shadow-lg transform hover:-translate-y-0.5">
+                        Event erstellen
+                    </a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="relative overflow-hidden bg-white pt-16 pb-24 lg:pt-32 lg:pb-40">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative">
+            <div class="lg:grid lg:grid-cols-12 lg:gap-16 items-center">
+                <div class="lg:col-span-6 text-center lg:text-left">
+                    <!-- Badge: Hellblauer Hintergrund (transparent), Dunkelblaue Schrift -->
+                    <div class="inline-block px-3 py-1 mb-4 text-xs font-semibold tracking-wider text-[#0c2664] uppercase bg-[#3f91cb]/10 rounded-full">
+                        Jetzt verfügbar
+                    </div>
+                    <h1 class="text-4xl tracking-tight font-extrabold text-gray-900 sm:text-5xl md:text-6xl mb-6">
+                        Deine Gäste. <br>
+                        Dein Event. <br>
+                        <!-- Highlight in CI-Hellblau -->
+                        <span class="text-[#3f91cb]">Nur ein Link.</span>
+                    </h1>
+                    <p class="mt-4 max-w-2xl text-xl text-gray-500 mx-auto lg:mx-0">
+                        Organisiere Treffen, Partys oder Meetings ohne Hürden. Deine Gäste melden sich an, ohne eine App zu installieren oder Accounts zu erstellen.
+                    </p>
+                    <div class="mt-8 flex justify-center lg:justify-start gap-4">
+                        <!-- Primary Button in CI-Dunkelblau -->
+                        <a href="#" class="px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-[#0c2664] hover:bg-[#0a1f52] md:text-lg md:px-10 shadow-xl transition">
+                            Kostenlos starten
+                        </a>
+                        <a href="#wie-es-geht" class="px-8 py-3 border border-gray-300 text-base font-medium rounded-md text-gray-700 bg-white hover:bg-gray-50 md:text-lg md:px-10 transition">
+                            Mehr erfahren
+                        </a>
+                    </div>
+                    <p class="mt-4 text-sm text-gray-400">Keine Kreditkarte erforderlich. Sofort startklar.</p>
+                </div>
+                
+                <!-- Hero Visual / Abstract Phone -->
+                <div class="lg:col-span-6 mt-12 lg:mt-0 relative">
+                    <div class="relative rounded-2xl shadow-2xl bg-white border border-gray-100 p-6 max-w-md mx-auto transform rotate-3 hover:rotate-0 transition duration-500">
+                        <!-- Fake UI Header -->
+                        <div class="flex justify-between items-center mb-6 border-b pb-4">
+                            <h3 class="font-bold text-lg">Sommerfest ☀️</h3>
+                            <span class="text-xs bg-green-100 text-green-800 px-2 py-1 rounded-full">14. Juli</span>
+                        </div>
+                        <!-- Fake UI Content -->
+                        <div class="space-y-4">
+                            <div class="bg-gray-50 p-4 rounded-lg">
+                                <p class="text-sm text-gray-600 mb-2">Hallo! Kommst du zu meinem Event?</p>
+                                <div class="flex gap-2">
+                                    <button class="flex-1 bg-green-500 text-white text-sm py-2 rounded shadow hover:bg-green-600 transition">Bin dabei!</button>
+                                    <button class="flex-1 bg-red-100 text-red-600 text-sm py-2 rounded hover:bg-red-200 transition">Leider nein</button>
+                                </div>
+                            </div>
+                            <!-- Features showcase inside mockup -->
+                            <div class="border-t pt-4">
+                                <div class="flex items-center justify-between text-sm text-gray-500 mb-2">
+                                    <span><i class="fa-solid fa-user-group mr-2"></i> +1 Begleitung?</span>
+                                    <!-- Toggle Switch Akzent in CI-Hellblau -->
+                                    <div class="w-8 h-4 bg-gray-200 rounded-full relative"><div class="absolute right-0 w-4 h-4 bg-[#3f91cb] rounded-full border-2 border-white"></div></div>
+                                </div>
+                                <div class="flex items-center justify-between text-sm text-gray-500">
+                                    <span><i class="fa-solid fa-clock mr-2"></i> Verspätest du dich?</span>
+                                    <!-- Link in CI-Hellblau -->
+                                    <span class="text-xs text-[#3f91cb] cursor-pointer">Bescheid geben</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Background Blobs -->
+                    <div class="blob bg-[#3f91cb] w-64 h-64 rounded-full top-0 -right-4"></div>
+                    <div class="blob bg-blue-200 w-48 h-48 rounded-full bottom-0 -left-4"></div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Value Proposition / Features Grid -->
+    <section id="funktionen" class="py-20 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <!-- Subheadline in CI-Hellblau -->
+                <h2 class="text-base text-[#3f91cb] font-semibold tracking-wide uppercase">Warum bindabei?</h2>
+                <p class="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">
+                    Maximale Rücklaufquote für deine Einladungen
+                </p>
+                <p class="mt-4 max-w-2xl text-xl text-gray-500 mx-auto">
+                    Wir haben alle Hürden entfernt. Deine Gäste müssen sich nicht registrieren, um dir zu antworten.
+                </p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
+                <!-- Feature 1: Login -->
+                <div class="bg-gray-50 rounded-xl p-8 hover:shadow-lg transition duration-300 border border-transparent hover:border-[#3f91cb]/30">
+                    <!-- Icon Box in CI-Dunkelblau (leicht transparent) -->
+                    <div class="w-12 h-12 bg-[#0c2664]/10 rounded-lg flex items-center justify-center mb-6">
+                        <i class="fa-solid fa-user-slash text-[#0c2664] text-xl"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-gray-900 mb-3">Kein Login nötig</h3>
+                    <p class="text-gray-600">
+                        Deine Gäste klicken auf den Link und antworten sofort. Keine Passwörter, keine App-Installation, kein "Passwort vergessen".
+                    </p>
+                </div>
+
+                <!-- Feature 2: Link Sharing (Green kept for semantic meaning of sharing/growth or use CI?) -> Keeping Semantic Green fits well, but let's check CI consistency. Let's keep variety for vibrancy but can swap if desired. sticking to variety for now but aligning border hover -->
+                <div class="bg-gray-50 rounded-xl p-8 hover:shadow-lg transition duration-300 border border-transparent hover:border-green-200">
+                    <div class="w-12 h-12 bg-green-100 rounded-lg flex items-center justify-center mb-6">
+                        <i class="fa-solid fa-share-nodes text-green-600 text-xl"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-gray-900 mb-3">Ein Link für alles</h3>
+                    <p class="text-gray-600">
+                        Egal ob WhatsApp, Instagram Bio, E-Mail oder LinkedIn. Kopiere den Link und teile ihn dort, wo deine Freunde sind.
+                    </p>
+                </div>
+
+                <!-- Feature 3: Time (Pink kept) -->
+                <div class="bg-gray-50 rounded-xl p-8 hover:shadow-lg transition duration-300 border border-transparent hover:border-pink-200">
+                    <div class="w-12 h-12 bg-pink-100 rounded-lg flex items-center justify-center mb-6">
+                        <i class="fa-solid fa-clock-rotate-left text-pink-600 text-xl"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-gray-900 mb-3">"Ich komme später"</h3>
+                    <p class="text-gray-600">
+                        Das Leben passiert. Gäste können nicht nur Zu- oder Absagen, sondern auch angeben, wenn sie sich verspäten.
+                    </p>
+                </div>
+
+                <!-- Feature 4: Groups (Yellow kept) -->
+                <div class="bg-gray-50 rounded-xl p-8 hover:shadow-lg transition duration-300 border border-transparent hover:border-yellow-200">
+                    <div class="w-12 h-12 bg-yellow-100 rounded-lg flex items-center justify-center mb-6">
+                        <i class="fa-solid fa-users text-yellow-600 text-xl"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-gray-900 mb-3">Begleitpersonen (+1)</h3>
+                    <p class="text-gray-600">
+                        Planst du mit Anhang? Gäste können ganz einfach angeben, ob sie Partner oder Kinder mitbringen.
+                    </p>
+                </div>
+
+                <!-- Feature 5: Mobile (Previously Blue, now CI-Hellblau) -->
+                <div class="bg-gray-50 rounded-xl p-8 hover:shadow-lg transition duration-300 border border-transparent hover:border-[#3f91cb]/30">
+                    <div class="w-12 h-12 bg-[#3f91cb]/10 rounded-lg flex items-center justify-center mb-6">
+                        <i class="fa-solid fa-mobile-screen text-[#3f91cb] text-xl"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-gray-900 mb-3">Mobile First</h3>
+                    <p class="text-gray-600">
+                        Perfekt optimiert für das Smartphone. Die Einladung sieht auf jedem Gerät großartig aus.
+                    </p>
+                </div>
+
+                <!-- Feature 6: Updates (Previously Purple, now CI-Dunkelblau) -->
+                <div class="bg-gray-50 rounded-xl p-8 hover:shadow-lg transition duration-300 border border-transparent hover:border-[#0c2664]/30">
+                    <div class="w-12 h-12 bg-[#0c2664]/10 rounded-lg flex items-center justify-center mb-6">
+                        <i class="fa-solid fa-wand-magic-sparkles text-[#0c2664] text-xl"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-gray-900 mb-3">Echtzeit-Updates</h3>
+                    <p class="text-gray-600">
+                        Ändert sich der Ort? Du aktualisierst das Event, und alle Gäste sehen sofort die neuen Infos unter dem gleichen Link.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- How It Works Step-by-Step -->
+    <section id="wie-es-geht" class="py-20 bg-gray-900 text-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl font-extrabold tracking-tight sm:text-4xl">So einfach funktioniert's</h2>
+            </div>
+            
+            <div class="flex flex-col md:flex-row justify-center items-center space-y-12 md:space-y-0 md:space-x-8">
+                <!-- Step 1 -->
+                <div class="flex flex-col items-center text-center max-w-xs">
+                    <!-- Step Circle in CI-Dunkelblau (mit Schatten in CI-Hellblau-Nähe für Glow) -->
+                    <div class="w-16 h-16 bg-[#0c2664] rounded-full flex items-center justify-center text-2xl font-bold mb-6 shadow-lg shadow-[#3f91cb]/50 border border-[#3f91cb]/30">1</div>
+                    <h3 class="text-xl font-bold mb-2">Event anlegen</h3>
+                    <p class="text-gray-400">Gib Titel, Zeit und Ort ein. Optional: Füge Details oder Umfragen hinzu.</p>
+                </div>
+                
+                <!-- Connector Line (Hidden on mobile) -->
+                <div class="hidden md:block w-24 h-1 bg-gray-700"></div>
+
+                <!-- Step 2 -->
+                <div class="flex flex-col items-center text-center max-w-xs">
+                    <div class="w-16 h-16 bg-[#0c2664] rounded-full flex items-center justify-center text-2xl font-bold mb-6 shadow-lg shadow-[#3f91cb]/50 border border-[#3f91cb]/30">2</div>
+                    <h3 class="text-xl font-bold mb-2">Link teilen</h3>
+                    <p class="text-gray-400">Du erhältst einen einzigartigen Link. Sende ihn per WhatsApp, Mail oder poste ihn auf Social Media.</p>
+                </div>
+
+                <!-- Connector Line -->
+                <div class="hidden md:block w-24 h-1 bg-gray-700"></div>
+
+                <!-- Step 3 -->
+                <div class="flex flex-col items-center text-center max-w-xs">
+                    <div class="w-16 h-16 bg-[#0c2664] rounded-full flex items-center justify-center text-2xl font-bold mb-6 shadow-lg shadow-[#3f91cb]/50 border border-[#3f91cb]/30">3</div>
+                    <h3 class="text-xl font-bold mb-2">Überblick behalten</h3>
+                    <p class="text-gray-400">Lehn dich zurück. Sieh zu, wie sich die Gästeliste füllt. Alle Infos an einem Ort.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Use Cases -->
+    <section class="py-20 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+                <div>
+                    <h2 class="text-3xl font-extrabold text-gray-900 mb-6">Für jeden Anlass geeignet</h2>
+                    <ul class="space-y-4">
+                        <li class="flex items-start">
+                            <i class="fa-solid fa-check text-green-500 mt-1 mr-3"></i>
+                            <div>
+                                <strong class="block text-gray-900">Private Feiern</strong>
+                                <span class="text-gray-600">Geburtstage, Grillabende oder Einweihungspartys. Keine WhatsApp-Gruppen-Chaos mehr.</span>
+                            </div>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fa-solid fa-check text-green-500 mt-1 mr-3"></i>
+                            <div>
+                                <strong class="block text-gray-900">Vereine & Sport</strong>
+                                <span class="text-gray-600">Wer kommt zum Training? Wer bringt was mit? Schnell geklärt.</span>
+                            </div>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fa-solid fa-check text-green-500 mt-1 mr-3"></i>
+                            <div>
+                                <strong class="block text-gray-900">Professionelle Netzwerke</strong>
+                                <span class="text-gray-600">Networking-Events oder Workshops. Senke die Hürde für die Anmeldung.</span>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="bg-gray-100 rounded-2xl p-8">
+                   <div class="bg-white rounded-xl shadow-lg p-6">
+                       <h3 class="text-gray-500 text-sm uppercase font-bold tracking-wider mb-4">Gästeliste (Live)</h3>
+                       <div class="space-y-4">
+                           <div class="flex items-center justify-between">
+                               <div class="flex items-center">
+                                   <div class="w-8 h-8 rounded-full bg-blue-100 flex items-center justify-center text-blue-600 font-bold text-xs">MK</div>
+                                   <span class="ml-3 font-medium text-gray-800">Max Kraft</span>
+                               </div>
+                               <span class="px-2 py-1 bg-green-100 text-green-800 text-xs rounded-full">Kommt</span>
+                           </div>
+                           <div class="flex items-center justify-between">
+                               <div class="flex items-center">
+                                   <div class="w-8 h-8 rounded-full bg-purple-100 flex items-center justify-center text-purple-600 font-bold text-xs">LS</div>
+                                   <span class="ml-3 font-medium text-gray-800">Laura Sonne</span>
+                               </div>
+                               <span class="px-2 py-1 bg-green-100 text-green-800 text-xs rounded-full">Kommt +1</span>
+                           </div>
+                           <div class="flex items-center justify-between opacity-70">
+                               <div class="flex items-center">
+                                   <div class="w-8 h-8 rounded-full bg-yellow-100 flex items-center justify-center text-yellow-600 font-bold text-xs">TR</div>
+                                   <span class="ml-3 font-medium text-gray-800">Tim Richter</span>
+                               </div>
+                               <span class="px-2 py-1 bg-yellow-100 text-yellow-800 text-xs rounded-full"><i class="fa-solid fa-clock mr-1"></i> Verspätet</span>
+                           </div>
+                       </div>
+                   </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Footer -->
+    <div class="hero-gradient">
+        <div class="max-w-2xl mx-auto text-center py-16 px-4 sm:py-20 sm:px-6 lg:px-8">
+            <h2 class="text-3xl font-extrabold text-white sm:text-4xl">
+                <span class="block">Bereit für dein nächstes Event?</span>
+                <!-- Light Blue tint for text -->
+                <span class="block text-blue-100">Starte jetzt kostenlos.</span>
+            </h2>
+            <p class="mt-4 text-lg leading-6 text-blue-50">
+                Kein Account notwendig, weder für dich noch für deine Gäste. Probier es in Sekunden aus.
+            </p>
+            <!-- Button Text in CI-Dunkelblau für Kontrast auf Weiß -->
+            <a href="#" class="mt-8 w-full inline-flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-md text-[#0c2664] bg-white hover:bg-gray-50 sm:w-auto transition shadow-lg">
+                Event jetzt erstellen
+            </a>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="bg-gray-50 border-t border-gray-200">
+        <div class="max-w-7xl mx-auto py-12 px-4 sm:px-6 md:flex md:items-center md:justify-between lg:px-8">
+            <div class="flex justify-center space-x-6 md:order-2">
+                <a href="#" class="text-gray-400 hover:text-gray-500">
+                    <span class="sr-only">Instagram</span>
+                    <i class="fa-brands fa-instagram text-xl"></i>
+                </a>
+                <a href="#" class="text-gray-400 hover:text-gray-500">
+                    <span class="sr-only">Twitter</span>
+                    <i class="fa-brands fa-twitter text-xl"></i>
+                </a>
+                <a href="#" class="text-gray-400 hover:text-gray-500">
+                    <span class="sr-only">Email</span>
+                    <i class="fa-solid fa-envelope text-xl"></i>
+                </a>
+            </div>
+            <div class="mt-8 md:mt-0 md:order-1">
+                <p class="text-center text-base text-gray-400">
+                    &copy; 2023 bindabei / ijoin. Alle Rechte vorbehalten.
+                </p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Smooth scrolling for anchor links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+    </script>
+</body>
+</html>
