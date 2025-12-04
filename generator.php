@@ -1079,6 +1079,16 @@ HTML;
 
     // 6. Datei speichern
     file_put_contents($filename, $html);
+    
+    $sitemap = '<urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">'.PHP_EOL;
+    $sitemap .= '<url><loc>http://ijoin.app/index.html</loc></url>'.PHP_EOL;
+		
+    foreach($languages as $l) {
+		if ($l['short'] != "de" && $l['short'] != "en") {
+			$sitemap .= '<url><loc>http://ijoin.app/index-'.$l['short'].'.html</loc></url>'.PHP_EOL;
+		}
+    }
+    file_put_contents("sitemap.xml", $sitemap);
     echo "Generated: $filename\n";
 }
 
