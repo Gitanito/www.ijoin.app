@@ -1,10 +1,10 @@
 <!DOCTYPE html>
-<html lang="de">
+<html lang="hu">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>bindabei - Die einfachste Event-Planung</title>
-    <meta name="description" content="Erstelle Events und lade Gäste ein – ganz ohne Anmeldung.">
+    <title>ijoin - A legegyszerűbb eseménytervezés</title>
+    <meta name="description" content="Hozzon létre eseményeket és hívjon meg vendégeket – regisztráció nélkül.">
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
@@ -32,15 +32,15 @@
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="flex justify-between h-16 items-center">
                 <div class="flex items-center">
-                    <a href="//bindabei.app/index.html" class="text-2xl font-bold text-[#0c2664] tracking-tight decoration-none">
-                        <i class="fa-solid fa-calendar-check mr-2"></i>bindabei
+                    <a href="//ijoin.app/index-hu.html" class="text-2xl font-bold text-[#0c2664] tracking-tight decoration-none">
+                        <i class="fa-solid fa-calendar-check mr-2"></i>ijoin
                     </a>
                 </div>
                 
                 <div class="hidden md:flex space-x-8">
-                    <a href="#features" class="text-gray-600 hover:text-[#3f91cb] transition">Funktionen</a>
-                    <a href="#how-it-works" class="text-gray-600 hover:text-[#3f91cb] transition">So geht's</a>
-                    <a href="#benefits" class="text-gray-600 hover:text-[#3f91cb] transition">Vorteile</a>
+                    <a href="#features" class="text-gray-600 hover:text-[#3f91cb] transition">Funkciók</a>
+                    <a href="#how-it-works" class="text-gray-600 hover:text-[#3f91cb] transition">Így működik</a>
+                    <a href="#benefits" class="text-gray-600 hover:text-[#3f91cb] transition">Előnyök</a>
                 </div>
 
                 <div class="flex items-center gap-4">
@@ -48,14 +48,14 @@
                     <div class="relative" id="lang-dropdown-container">
                         <button id="lang-btn" class="flex items-center text-gray-600 hover:text-[#3f91cb] focus:outline-none transition py-2">
                             <i class="fa-solid fa-globe text-xl"></i>
-                            <span class="ml-1 text-sm font-medium uppercase hidden sm:inline">de</span>
+                            <span class="ml-1 text-sm font-medium uppercase hidden sm:inline">hu</span>
                             <i class="fa-solid fa-chevron-down text-xs ml-1 opacity-70"></i>
                         </button>
                         <div id="lang-menu" class="hidden absolute right-0 mt-2 w-48 bg-white rounded-md shadow-xl py-1 z-50 max-h-80 overflow-y-auto ring-1 ring-black ring-opacity-5 border border-gray-100"></div>
                     </div>
 
                     <a href="#" class="bg-[#0c2664] hover:bg-[#0a1f52] text-white font-medium py-2 px-5 rounded-full transition shadow-lg transform hover:-translate-y-0.5 whitespace-nowrap">
-                        <span class="hidden sm:inline">Event erstellen</span>
+                        <span class="hidden sm:inline">Esemény létrehozása</span>
                         <span class="sm:hidden"><i class="fa-solid fa-plus"></i></span>
                     </a>
                 </div>
@@ -69,25 +69,25 @@
             <div class="lg:grid lg:grid-cols-12 lg:gap-16 items-center">
                 <div class="lg:col-span-6 text-center lg:text-left">
                     <div class="inline-block px-3 py-1 mb-4 text-xs font-semibold tracking-wider text-[#0c2664] uppercase bg-[#3f91cb]/10 rounded-full">
-                        Jetzt verfügbar
+                        Most elérhető
                     </div>
                     <h1 class="text-4xl tracking-tight font-extrabold text-gray-900 sm:text-5xl md:text-6xl mb-6">
-                        Deine Gäste. <br>
-                        Dein Event. <br>
-                        <span class="text-[#3f91cb]">Nur ein Link.</span>
+                        Vendégeid. <br>
+                        Eseményed. <br>
+                        <span class="text-[#3f91cb]">Csak egy link.</span>
                     </h1>
                     <p class="mt-4 max-w-2xl text-xl text-gray-500 mx-auto lg:mx-0">
-                        Organisiere Treffen, Partys oder Meetings ohne Hürden. Deine Gäste melden sich an, ohne eine App zu installieren.
+                        Szervezz találkozókat, bulikat vagy megbeszéléseket akadálymentesen. Vendégeid app telepítése nélkül jelentkeznek be.
                     </p>
                     <div class="mt-8 flex justify-center lg:justify-start gap-4">
                         <a href="#" class="px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-[#0c2664] hover:bg-[#0a1f52] md:text-lg md:px-10 shadow-xl transition">
-                            Kostenlos starten
+                            Indítás ingyen
                         </a>
                         <a href="#how-it-works" class="px-8 py-3 border border-gray-300 text-base font-medium rounded-md text-gray-700 bg-white hover:bg-gray-50 md:text-lg md:px-10 transition">
-                            Mehr erfahren
+                            Tudj meg többet
                         </a>
                     </div>
-                    <p class="mt-4 text-sm text-gray-400">Keine Kreditkarte erforderlich. Sofort startklar.</p>
+                    <p class="mt-4 text-sm text-gray-400">Nincs szükség hitelkártyára. Azonnal használható.</p>
                 </div>
                 
                 <div class="lg:col-span-6 mt-12 lg:mt-0 relative flex justify-center">
@@ -102,12 +102,12 @@
     <section id="features" class="py-20 bg-white">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="text-center mb-16">
-                <h2 class="text-base text-[#3f91cb] font-semibold tracking-wide uppercase">Warum bindabei?</h2>
+                <h2 class="text-base text-[#3f91cb] font-semibold tracking-wide uppercase">Miért a ijoin?</h2>
                 <p class="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">
-                    Maximale Rücklaufquote für deine Einladungen
+                    Maximális válaszadási arány a meghívóidra
                 </p>
                 <p class="mt-4 max-w-2xl text-xl text-gray-500 mx-auto">
-                    Wir haben alle Hürden entfernt. Deine Gäste müssen sich nicht registrieren.
+                    Minden akadályt eltávolítottunk. Vendégeidnek nem kell regisztrálniuk.
                 </p>
             </div>
 
@@ -117,48 +117,48 @@
                     <div class="w-12 h-12 bg-[#0c2664]/10 rounded-lg flex items-center justify-center mb-6">
                         <i class="fa-solid fa-user-slash text-[#0c2664] text-xl"></i>
                     </div>
-                    <h3 class="text-xl font-bold text-gray-900 mb-3">Kein Login nötig</h3>
-                    <p class="text-gray-600">Deine Gäste klicken auf den Link und antworten sofort. Keine Passwörter, keine App.</p>
+                    <h3 class="text-xl font-bold text-gray-900 mb-3">Nincs szükség bejelentkezésre</h3>
+                    <p class="text-gray-600">Vendégeid rákattintanak a linkre és azonnal válaszolnak. Nincsenek jelszavak, nincs alkalmazás.</p>
                 </div>
                 <!-- Feature 2 -->
                 <div class="bg-gray-50 rounded-xl p-8 hover:shadow-lg transition duration-300 border border-transparent hover:border-green-200">
                     <div class="w-12 h-12 bg-green-100 rounded-lg flex items-center justify-center mb-6">
                         <i class="fa-solid fa-share-nodes text-green-600 text-xl"></i>
                     </div>
-                    <h3 class="text-xl font-bold text-gray-900 mb-3">Ein Link für alles</h3>
-                    <p class="text-gray-600">Egal ob WhatsApp, Instagram Bio, E-Mail oder LinkedIn. Kopiere den Link und teile ihn.</p>
+                    <h3 class="text-xl font-bold text-gray-900 mb-3">Egy link mindenre</h3>
+                    <p class="text-gray-600">Legyen szó WhatsAppról, Instagram Bióról, e-mailről vagy LinkedINről. Másold ki a linket és oszd meg.</p>
                 </div>
                 <!-- Feature 3 -->
                 <div class="bg-gray-50 rounded-xl p-8 hover:shadow-lg transition duration-300 border border-transparent hover:border-pink-200">
                     <div class="w-12 h-12 bg-pink-100 rounded-lg flex items-center justify-center mb-6">
                         <i class="fa-solid fa-clock-rotate-left text-pink-600 text-xl"></i>
                     </div>
-                    <h3 class="text-xl font-bold text-gray-900 mb-3">"Ich komme später"</h3>
-                    <p class="text-gray-600">Das Leben passiert. Gäste können angeben, wenn sie sich verspäten.</p>
+                    <h3 class="text-xl font-bold text-gray-900 mb-3">"Később jövök"</h3>
+                    <p class="text-gray-600">Az élet közbeszól. A vendégek jelezhetik, ha késnek.</p>
                 </div>
                 <!-- Feature 4 -->
                 <div class="bg-gray-50 rounded-xl p-8 hover:shadow-lg transition duration-300 border border-transparent hover:border-yellow-200">
                     <div class="w-12 h-12 bg-yellow-100 rounded-lg flex items-center justify-center mb-6">
                         <i class="fa-solid fa-users text-yellow-600 text-xl"></i>
                     </div>
-                    <h3 class="text-xl font-bold text-gray-900 mb-3">Begleitpersonen (+1)</h3>
-                    <p class="text-gray-600">Planst du mit Anhang? Gäste können angeben, ob sie Partner mitbringen.</p>
+                    <h3 class="text-xl font-bold text-gray-900 mb-3">Kísérők (+1)</h3>
+                    <p class="text-gray-600">Kísérővel tervezel? A vendégek jelezhetik, ha partnerrel érkeznek.</p>
                 </div>
                 <!-- Feature 5 -->
                 <div class="bg-gray-50 rounded-xl p-8 hover:shadow-lg transition duration-300 border border-transparent hover:border-[#3f91cb]/30">
                     <div class="w-12 h-12 bg-[#3f91cb]/10 rounded-lg flex items-center justify-center mb-6">
                         <i class="fa-solid fa-mobile-screen text-[#3f91cb] text-xl"></i>
                     </div>
-                    <h3 class="text-xl font-bold text-gray-900 mb-3">Mobile First</h3>
-                    <p class="text-gray-600">Perfekt optimiert für das Smartphone. Die Einladung sieht überall gut aus.</p>
+                    <h3 class="text-xl font-bold text-gray-900 mb-3">Mobilbarát</h3>
+                    <p class="text-gray-600">Tökéletesen optimalizálva okostelefonokra. A meghívó mindenhol jól néz ki.</p>
                 </div>
                 <!-- Feature 6 -->
                 <div class="bg-gray-50 rounded-xl p-8 hover:shadow-lg transition duration-300 border border-transparent hover:border-[#0c2664]/30">
                     <div class="w-12 h-12 bg-[#0c2664]/10 rounded-lg flex items-center justify-center mb-6">
                         <i class="fa-solid fa-wand-magic-sparkles text-[#0c2664] text-xl"></i>
                     </div>
-                    <h3 class="text-xl font-bold text-gray-900 mb-3">Echtzeit-Updates</h3>
-                    <p class="text-gray-600">Ändert sich der Ort? Aktualisiere das Event, alle Gäste sehen es sofort.</p>
+                    <h3 class="text-xl font-bold text-gray-900 mb-3">Valós idejű frissítések</h3>
+                    <p class="text-gray-600">Változik a helyszín? Frissítsd az eseményt, minden vendég azonnal látja.</p>
                 </div>
             </div>
         </div>
@@ -168,25 +168,25 @@
     <section id="how-it-works" class="py-20 bg-gray-900 text-white">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="text-center mb-16">
-                <h2 class="text-3xl font-extrabold tracking-tight sm:text-4xl">So einfach funktioniert's</h2>
+                <h2 class="text-3xl font-extrabold tracking-tight sm:text-4xl">Így működik, egyszerűen</h2>
             </div>
             <div class="flex flex-col md:flex-row justify-center items-center space-y-12 md:space-y-0 md:space-x-8">
                 <div class="flex flex-col items-center text-center max-w-xs">
                     <div class="w-16 h-16 bg-[#0c2664] rounded-full flex items-center justify-center text-2xl font-bold mb-6 shadow-lg shadow-[#3f91cb]/50 border border-[#3f91cb]/30">1</div>
-                    <h3 class="text-xl font-bold mb-2">Event anlegen</h3>
-                    <p class="text-gray-400">Gib Titel, Zeit und Ort ein. Optional: Details hinzufügen.</p>
+                    <h3 class="text-xl font-bold mb-2">Esemény létrehozása</h3>
+                    <p class="text-gray-400">Add meg a címet, időt és helyet. Opcionális: részletek hozzáadása.</p>
                 </div>
                 <div class="hidden md:block w-24 h-1 bg-gray-700"></div>
                 <div class="flex flex-col items-center text-center max-w-xs">
                     <div class="w-16 h-16 bg-[#0c2664] rounded-full flex items-center justify-center text-2xl font-bold mb-6 shadow-lg shadow-[#3f91cb]/50 border border-[#3f91cb]/30">2</div>
-                    <h3 class="text-xl font-bold mb-2">Link teilen</h3>
-                    <p class="text-gray-400">Du erhältst einen einzigartigen Link. Sende ihn per WhatsApp oder Mail.</p>
+                    <h3 class="text-xl font-bold mb-2">Link megosztása</h3>
+                    <p class="text-gray-400">Egyedi linket kapsz. Küldd el WhatsAppon vagy e-mailben.</p>
                 </div>
                 <div class="hidden md:block w-24 h-1 bg-gray-700"></div>
                 <div class="flex flex-col items-center text-center max-w-xs">
                     <div class="w-16 h-16 bg-[#0c2664] rounded-full flex items-center justify-center text-2xl font-bold mb-6 shadow-lg shadow-[#3f91cb]/50 border border-[#3f91cb]/30">3</div>
-                    <h3 class="text-xl font-bold mb-2">Überblick behalten</h3>
-                    <p class="text-gray-400">Lehn dich zurück. Sieh zu, wie sich die Gästeliste füllt.</p>
+                    <h3 class="text-xl font-bold mb-2">Tartsd szemmel</h3>
+                    <p class="text-gray-400">Dőlj hátra. Nézd, ahogy telik a vendéglista.</p>
                 </div>
             </div>
         </div>
@@ -197,27 +197,27 @@
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
                 <div>
-                    <h2 class="text-3xl font-extrabold text-gray-900 mb-6">Für jeden Anlass geeignet</h2>
+                    <h2 class="text-3xl font-extrabold text-gray-900 mb-6">Minden alkalomra alkalmas</h2>
                     <ul class="space-y-4">
                         <li class="flex items-start">
                             <i class="fa-solid fa-check text-green-500 mt-1 mr-3"></i>
                             <div>
-                                <strong class="block text-gray-900">Private Feiern</strong>
-                                <span class="text-gray-600">Geburtstage, Grillabende. Kein WhatsApp-Gruppen-Chaos mehr.</span>
+                                <strong class="block text-gray-900">Privát ünnepségek</strong>
+                                <span class="text-gray-600">Születésnapok, grillezések. Nincs több WhatsApp csoport káosz.</span>
                             </div>
                         </li>
                         <li class="flex items-start">
                             <i class="fa-solid fa-check text-green-500 mt-1 mr-3"></i>
                             <div>
-                                <strong class="block text-gray-900">Vereine & Sport</strong>
-                                <span class="text-gray-600">Wer kommt zum Training? Schnell geklärt.</span>
+                                <strong class="block text-gray-900">Egyesületek és Sport</strong>
+                                <span class="text-gray-600">Ki jön edzésre? Gyorsan tisztázva.</span>
                             </div>
                         </li>
                         <li class="flex items-start">
                             <i class="fa-solid fa-check text-green-500 mt-1 mr-3"></i>
                             <div>
-                                <strong class="block text-gray-900">Professionelle Netzwerke</strong>
-                                <span class="text-gray-600">Networking-Events oder Workshops. Senke die Hürde.</span>
+                                <strong class="block text-gray-900">Professzionális hálózatok</strong>
+                                <span class="text-gray-600">Networking események vagy workshopok. Csökkentsd az akadályt.</span>
                             </div>
                         </li>
                     </ul>
@@ -233,14 +233,14 @@
     <div class="hero-gradient">
         <div class="max-w-2xl mx-auto text-center py-16 px-4 sm:py-20 sm:px-6 lg:px-8">
             <h2 class="text-3xl font-extrabold text-white sm:text-4xl">
-                <span class="block">Bereit für dein nächstes Event?</span>
-                <span class="block text-blue-100">Starte jetzt kostenlos.</span>
+                <span class="block">Készen állsz a következő eseményedre?</span>
+                <span class="block text-blue-100">Indítsd el most ingyen.</span>
             </h2>
             <p class="mt-4 text-lg leading-6 text-blue-50">
-                Kein Account notwendig. Probier es in Sekunden aus.
+                Nincs szükség fiókra. Próbáld ki másodpercek alatt.
             </p>
             <a href="#" class="mt-8 w-full inline-flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-md text-[#0c2664] bg-white hover:bg-gray-50 sm:w-auto transition shadow-lg">
-                Event jetzt erstellen
+                Esemény létrehozása most
             </a>
         </div>
     </div>
@@ -254,7 +254,7 @@
                 <a href="#" class="text-gray-400 hover:text-gray-500"><span class="sr-only">Email</span><i class="fa-solid fa-envelope text-xl"></i></a>
             </div>
             <div class="mt-8 md:mt-0 md:order-1">
-                <p class="text-center text-base text-gray-400">&copy; 2023 bindabei. All rights reserved.</p>
+                <p class="text-center text-base text-gray-400">&copy; 2023 ijoin. All rights reserved.</p>
             </div>
         </div>
     </footer>
@@ -269,7 +269,7 @@
         });
 
         const languages = [{"short":"en","name":"English"},{"short":"de","name":"German"},{"short":"es","name":"Spanish"},{"short":"it","name":"Italian"},{"short":"hr","name":"Croatian"},{"short":"fr","name":"French"},{"short":"sq","name":"Albanian"},{"short":"bs","name":"Bosnian"},{"short":"nl","name":"Dutch"},{"short":"tr","name":"Turkish"},{"short":"uk","name":"Ukrainian"},{"short":"pt","name":"Portuguese"},{"short":"ru","name":"Russian"},{"short":"cs","name":"Czech"},{"short":"da","name":"Danish"},{"short":"et","name":"Estonian"},{"short":"fi","name":"Finnish"},{"short":"hu","name":"Hungarian"},{"short":"sr","name":"Serbian"},{"short":"sk","name":"Slovak"},{"short":"sl","name":"Slovenian"},{"short":"sv","name":"Swedish"},{"short":"no","name":"Norwegian"},{"short":"pl","name":"Polish"},{"short":"bg","name":"Bulgarian"},{"short":"he","name":"Hebrew"},{"short":"af","name":"Afrikaans"},{"short":"ar","name":"Arabic"},{"short":"zh","name":"Chinese"},{"short":"hi","name":"Hindi"},{"short":"bn","name":"Bengali"}];
-        const currentLang = 'de';
+        const currentLang = 'hu';
         const langMenu = document.getElementById('lang-menu');
         const langBtn = document.getElementById('lang-btn');
 
