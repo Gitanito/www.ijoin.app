@@ -1,4 +1,4 @@
-<urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<?xml version="1.0" encoding="UTF-8"?><urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
 <url><loc>http://ijoin.app/index.html</loc></url>
 <url><loc>http://ijoin.app/index-es.html</loc></url>
 <url><loc>http://ijoin.app/index-it.html</loc></url>
@@ -29,3 +29,4 @@
 <url><loc>http://ijoin.app/index-zh.html</loc></url>
 <url><loc>http://ijoin.app/index-hi.html</loc></url>
 <url><loc>http://ijoin.app/index-bn.html</loc></url>
+</urlset>
