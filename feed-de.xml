@@ -1,28 +1,57 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <title type="text">heise online News</title><subtitle type="html"><![CDATA[Nachrichten nicht nur aus der Welt der Computer]]></subtitle>
-    <updated>2025-12-09T21:00:00+01:00</updated>
-    <id>https://www.heise.de/rss/heise-atom.xml</id>
+
+  <title>Mein Blog</title>
+  <link href="http://www.example.com/blog/" rel="self"/>
+  <updated>2023-10-27T10:00:00Z</updated>
+  <author>
+    <name>Max Mustermann</name>
+  </author>
+  <id>urn:uuid:60a76c80-d66a-11e7-9296-cec278b6b50a</id>
+
+  <entry>
+    <title>Mein erster Artikel mit Bild</title>
+    <link href="http://www.example.com/blog/erster-artikel" rel="alternate"/>
+    <id>urn:uuid:1225c695-d66b-11e7-9296-cec278b6b50a</id>
+    <updated>2023-10-27T09:30:00Z</updated>
+    <published>2023-10-27T09:30:00Z</published>
     <author>
-        <name>heise online</name><uri>https://www.heise.de</uri>
+      <name>Max Mustermann</name>
     </author>
-    <icon>https://ijoin.app/socialimages/zkfne3xxaxrme0cv0hh9hy4hjw.jpg</icon>
-    <logo>https://ijoin.app/socialimages/zkfne3xxaxrme0cv0hh9hy4hjw.jpg</logo>
-    <link rel="self" type="application/atom+xml" href="https://www.heise.de/rss/heise-atom.xml"/>
-    <link rel="alternate" type="text/html" href="https://www.heise.de/"/>
-    <rights>Copyright (c) 2025 Heise Medien</rights>
-    
-    <entry>
-        <title type="html"><![CDATA[Ihr Exklusiver Netzwerk-Lunch Maximiert]]></title>
-        <id>http://heise.de/-11109030</id>
-        <updated>2025-12-09T21:00:00+01:00</updated>
-        <published>2025-12-09T21:00:00+01:00</published>
-        <link href="https://www.heise.de/news/Russische-Schattenflotte-AIS-Manipulation-hat-sich-verdoppelt-11109030.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag"/>
-        <author>
-            <name>Malte Kirchner</name>
-        </author>
-        
-        <summary type="html"><![CDATA[Eine Datenanalyse zeigt: Schiffe der russischen Schattenflotte schalten ihre Ortungssysteme doppelt so oft ab wie vor dem Ukraine-Krieg. Mit großen Risiken.]]></summary>
-        <content type="html"><![CDATA[<p><a href="https://www.heise.de/news/Russische-Schattenflotte-AIS-Manipulation-hat-sich-verdoppelt-11109030.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag"><img src="https://ijoin.app/socialimages/zkfne3xxaxrme0cv0hh9hy4hjw.jpg" class="webfeedsFeaturedVisual" alt="" /></a></p><p>Eine Datenanalyse zeigt: Schiffe der russischen Schattenflotte schalten ihre Ortungssysteme doppelt so oft ab wie vor dem Ukraine-Krieg. Mit großen Risiken.</p>]]></content>
-    </entry>
+    <summary type="html">Dies ist die Zusammenfassung meines ersten Artikels. Hier könnte ein Teaser-Text stehen.</summary>
+    <content type="html">
+      <![CDATA[
+        <h1>Mein erster Artikel mit Bild</h1>
+        <p>Dies ist der vollständige Inhalt meines ersten Artikels. Er enthält interessante Informationen und ...</p>
+        <p>Ein Bild zur Veranschaulichung:</p>
+        <img src="http://www.example.com/images/mein-bild.jpg" alt="Beschreibung des Bildes" />
+        <p>... weitere Inhalte hier.</p>
+      ]]>
+    </content>
+    <!-- Optional: Medien-Erweiterung für das Bild -->
+    <media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://ijoin.app/socialimages/zkfne3xxaxrme0cv0hh9hy4hjw.jpg" width="100" height="75" />
+    <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://ijoin.app/socialimages/zkfne3xxaxrme0cv0hh9hy4hjw.jpg" medium="image" type="image/jpeg">
+      <media:title>Ein schönes Beispielbild</media:title>
+      <media:description>Dies ist eine detailliertere Beschreibung des Bildes.</media:description>
+    </media:content>
+  </entry>
+
+  <entry>
+    <title>Ihr Exklusiver Netzwerk-Lunch Maximiert</title>
+    <link href="http://www.example.com/blog/zweiter-artikel" rel="alternate"/>
+    <id>urn:uuid:7f6a7d0e-d66c-11e7-9296-cec278b6b50a</id>
+    <updated>2023-10-26T14:00:00Z</updated>
+    <published>2023-10-26T14:00:00Z</published>
+    <author>
+      <name>Max Mustermann</name>
+    </author>
+    <summary type="html">Zusammenfassung des zweiten Artikels.</summary>
+    <content type="html">
+      <![CDATA[
+        <h1>Ein weiterer Artikel</h1>
+        <p>Dieser Artikel enthält nur Text.</p>
+      ]]>
+    </content>
+  </entry>
+
 </feed>
