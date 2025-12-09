@@ -4,6 +4,11 @@
     <title>BinDabei.app</title>
     <description>BinDabei.app - Verabredungen Super-Simple!</description>
     <atom:link href="http://ijoin.bindabei.app/feed.xml" rel="self" type="application/rss+xml" />
+      <image>
+        <url>https://ijoin.app/socialimages/x.jpg</url>
+        <title>So So sooooo</title>
+        <link>http://ijoin.bindabei.app/index.html</link>
+      </image>
       <item>
         <title>Würdevolle Gedenkfeiern und Beerdigungskaffees stressfrei organisieren</title>
         
