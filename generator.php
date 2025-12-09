@@ -812,7 +812,7 @@ foreach ($languages as $langData) {
             <div class="flex justify-between h-16 items-center">
                 <div class="flex items-center">
                     <a href="{$homeLink}" class="text-2xl font-bold text-[#0c2664] tracking-tight decoration-none">
-                        <i class="fa-solid fa-calendar-check mr-2"></i><img src="{$brandName}-logo.png" style="height:32px;">
+                        <img src="{$brandName}-logo.png" style="height:40px;">
                     </a>
                 </div>
                 
