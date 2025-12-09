@@ -750,9 +750,11 @@ foreach ($languages as $langData) {
     if ($code === 'de') {
         $brandName = "bindabei";
         $homeLink = "//bindabei.app/index.html";
+        $rssLink = "ijoin.bindabei.app/feed.xml";
     } else {
         $brandName = "ijoin";
         $homeLink = ($code === 'en') ? "//ijoin.app/index.html" : "//ijoin.app/index-{$code}.html";
+        $rssLink = "{$code}.ijoin.app/feed.xml";
     }
 
     // 2. Übersetzungen zusammenführen (Merge mit Englisch als Fallback)
@@ -1080,7 +1082,7 @@ foreach ($languages as $langData) {
         document.addEventListener('click', (e) => { if (!langBtn.contains(e.target) && !langMenu.contains(e.target)) langMenu.classList.add('hidden'); });
         
         
-		getRandomRssArticles("//{$code}.ijoin.app/feed.xml").then(html => {
+		getRandomRssArticles("//{$rssLink}").then(html => {
 			document.getElementById('rss-articles-container').innerHTML = html; // Assuming you have a container with this ID
 		});
 			

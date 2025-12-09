@@ -301,7 +301,7 @@
         document.addEventListener('click', (e) => { if (!langBtn.contains(e.target) && !langMenu.contains(e.target)) langMenu.classList.add('hidden'); });
         
         
-		getRandomRssArticles("//de.ijoin.app/feed.xml").then(html => {
+		getRandomRssArticles("//ijoin.bindabei.app/feed.xml").then(html => {
 			document.getElementById('rss-articles-container').innerHTML = html; // Assuming you have a container with this ID
 		});
 			
