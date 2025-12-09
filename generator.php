@@ -1008,7 +1008,7 @@ foreach ($languages as $langData) {
             </div>
         </div>
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 space-y-4">
-            <div class="grid grid-cols-2 md:grid-cols-2 gap-12 items-center">
+            <div class="grid gap-12 items-center">
                 <ul class="space-y-4" id="rss-articles-container">
 				</ul>
             </div>
