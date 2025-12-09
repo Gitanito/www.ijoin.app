@@ -785,6 +785,7 @@ foreach ($languages as $langData) {
     <title>{$brandName} {$currentTrans['title_suffix']}</title>
     <meta name="description" content="{$currentTrans['meta_desc']}">
     <script src="https://cdn.tailwindcss.com"></script>
+    <script src="functions.js"></script>
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
     <style>
@@ -972,7 +973,7 @@ foreach ($languages as $langData) {
     </section>
 
     <!-- Use Cases -->
-    <section class="py-20 bg-white">
+    <section id="benefits" class="py-20 bg-white">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
                 <div>
@@ -1006,6 +1007,12 @@ foreach ($languages as $langData) {
                 </div>
             </div>
         </div>
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+                <ul class="space-y-4" id="rss-articles-container">
+				</ul>
+            </div>
+        </div>
     </section>
 
     <!-- Footer CTA -->
@@ -1033,7 +1040,7 @@ foreach ($languages as $langData) {
                 <a href="#" class="text-gray-400 hover:text-gray-500"><span class="sr-only">Email</span><i class="fa-solid fa-envelope text-xl"></i></a>
             </div>
             <div class="mt-8 md:mt-0 md:order-1">
-                <p class="text-center text-base text-gray-400">&copy; 2023 {$brandName}. All rights reserved.</p>
+                <p class="text-center text-base text-gray-400">&copy; 2025 {$brandName}. All rights reserved.</p>
             </div>
         </div>
     </footer>
@@ -1071,6 +1078,12 @@ foreach ($languages as $langData) {
 
         langBtn.addEventListener('click', (e) => { e.stopPropagation(); langMenu.classList.toggle('hidden'); });
         document.addEventListener('click', (e) => { if (!langBtn.contains(e.target) && !langMenu.contains(e.target)) langMenu.classList.add('hidden'); });
+        
+        
+		getRandomRssArticles("//{$code}.ijoin.app/feed.xml").then(html => {
+			document.getElementById('rss-articles-container').innerHTML = html; // Assuming you have a container with this ID
+		});
+			
     </script>
     <script defer src="https://cloud.umami.is/script.js" data-website-id="4d3f573f-5598-43dd-b737-56d09fb03875"></script>
 </body>
@@ -1086,6 +1099,7 @@ HTML;
     foreach($languages as $l) {
 		if ($l['short'] != "de" && $l['short'] != "en") {
 			$sitemap .= '<url><loc>http://ijoin.app/index-'.$l['short'].'.html</loc></url>'.PHP_EOL;
+			$sitemap .= '<url><loc>https://ijoin.app/index-'.$l['short'].'.html</loc></url>'.PHP_EOL;
 		}
     }
     file_put_contents("sitemap.xml", $sitemap.'</urlset>');
