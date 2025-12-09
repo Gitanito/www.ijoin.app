@@ -1,24 +1,33 @@
+
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
   <channel>
     <title>BinDabei.app</title>
     <description>BinDabei.app - Verabredungen Super-Simple!</description>
     <atom:link href="http://ijoin.bindabei.app/feed.xml" rel="self" type="application/rss+xml" />
-      <image>
-        <url>https://ijoin.app/socialimages/x.jpg</url>
-        <title>So So sooooo</title>
-        <link>http://ijoin.bindabei.app/index.html</link>
-      </image>
-      <item>
-        <title>Würdevolle Gedenkfeiern und Beerdigungskaffees stressfrei organisieren</title>
-        
+
+<item>
+		<title>Ihr Exklusiver Netzwerk-Lunch Maximiert</title>
+		<link>http://ijoin.bindabei.app</link>
         <dc:creator><![CDATA[ testinger.app ]]></dc:creator>
-        
-        <pubDate>Thu, 27 Nov 2025 00:00:00 -0500</pubDate>
-        <link>http://ijoin.bindabei.app</link>
-        <guid isPermaLink="true">http://ijoin.bindabei.app</guid>
-        <description><![CDATA[<img src="https://ijoin.app/socialimages/nxajj2gzwnrm80cv0f7bn486dc.jpg" />]]></description>         
-      </item>
-    
+		<pubDate>Fri, 28 Feb 2025 19:15:20 +0000</pubDate>
+		<category><![CDATA[Music]]></category>
+		<category><![CDATA[Festival Lineup]]></category>
+		<category><![CDATA[Las Vegas]]></category>
+		<category><![CDATA[Music Event]]></category>
+		<category><![CDATA[Punk Rock Festival]]></category>
+		<category><![CDATA[Ticket Sales]]></category>
+		<guid isPermaLink="false"></guid>
+
+<description><![CDATA[<img src="https://ijoin.app/socialimages/zkfne3xxaxrme0cv0hh9hy4hjw.jpg" />]]></description>
+										
+
+<content:encoded><![CDATA[<img src="https://ijoin.app/socialimages/zkfne3xxaxrme0cv0hh9hy4hjw.jpg" />]]></content:encoded>
+					
+					
+			</item>
+
+
+
   </channel>
 </rss>
