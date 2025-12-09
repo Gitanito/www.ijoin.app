@@ -1108,6 +1108,8 @@ HTML;
 
 unlink("index.html");
 rename("index-en.html", "index.html");
+unlink("../www.bindabei.app/index.html");
+copy("index-de.html", "../www.bindabei.app/index.html");
 
 echo "Done! All files generated.";
 ?>
