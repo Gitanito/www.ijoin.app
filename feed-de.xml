@@ -1,4 +1,3 @@
-
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
   <channel>
@@ -17,17 +16,8 @@
 		<category><![CDATA[Music Event]]></category>
 		<category><![CDATA[Punk Rock Festival]]></category>
 		<category><![CDATA[Ticket Sales]]></category>
-		<guid isPermaLink="false"></guid>
-
-<description><![CDATA[<img src="https://ijoin.app/socialimages/zkfne3xxaxrme0cv0hh9hy4hjw.jpg" />]]></description>
-										
-
+<description><![CDATA[<img src="https://ijoin.app/socialimages/zkfne3xxaxrme0cv0hh9hy4hjw.jpg" />]]></description>				
 <content:encoded><![CDATA[<img src="https://ijoin.app/socialimages/zkfne3xxaxrme0cv0hh9hy4hjw.jpg" />]]></content:encoded>
-					
-					
 			</item>
-
-
-
   </channel>
 </rss>
