@@ -7,51 +7,18 @@
   <author>
     <name>Max Mustermann</name>
   </author>
-  <id>urn:uuid:60a76c80-d66a-11e7-9296-cec278b6b50a</id>
 
-  <entry>
-    <title>Mein erster Artikel mit Bild</title>
-    <link href="http://www.example.com/blog/erster-artikel" rel="alternate"/>
-    <id>urn:uuid:1225c695-d66b-11e7-9296-cec278b6b50a</id>
-    <updated>2023-10-27T09:30:00Z</updated>
-    <published>2023-10-27T09:30:00Z</published>
-    <author>
-      <name>Max Mustermann</name>
-    </author>
-    <summary type="html">Dies ist die Zusammenfassung meines ersten Artikels. Hier könnte ein Teaser-Text stehen.</summary>
+<entry>
+    <title>Post with Inline Image</title>
+    <link href="http://example.com/post2"/>
+    <published>2023-10-27T10:00:00Z</published>
     <content type="html">
-      <![CDATA[
-        <h1>Mein erster Artikel mit Bild</h1>
-        <p>Dies ist der vollständige Inhalt meines ersten Artikels. Er enthält interessante Informationen und ...</p>
-        <p>Ein Bild zur Veranschaulichung:</p>
-        <img src="http://www.example.com/images/mein-bild.jpg" alt="Beschreibung des Bildes" />
-        <p>... weitere Inhalte hier.</p>
-      ]]>
+        <![CDATA[
+        <p>Check out this photo:</p>
+        <img src="https://ijoin.app/socialimages/zkfne3xxaxrme0cv0hh9hy4hjw.jpg" alt="A cool picture" width="300" height="200"/>
+        <p>It's great!</p>
+        ]]>
     </content>
-    <!-- Optional: Medien-Erweiterung für das Bild -->
-    <media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://ijoin.app/socialimages/zkfne3xxaxrme0cv0hh9hy4hjw.jpg" width="100" height="75" />
-    <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://ijoin.app/socialimages/zkfne3xxaxrme0cv0hh9hy4hjw.jpg" medium="image" type="image/jpeg">
-      <media:title>Ein schönes Beispielbild</media:title>
-      <media:description>Dies ist eine detailliertere Beschreibung des Bildes.</media:description>
-    </media:content>
-  </entry>
-
-  <entry>
-    <title>Ihr Exklusiver Netzwerk-Lunch Maximiert</title>
-    <link href="http://www.example.com/blog/zweiter-artikel" rel="alternate"/>
-    <id>urn:uuid:7f6a7d0e-d66c-11e7-9296-cec278b6b50a</id>
-    <updated>2023-10-26T14:00:00Z</updated>
-    <published>2023-10-26T14:00:00Z</published>
-    <author>
-      <name>Max Mustermann</name>
-    </author>
-    <summary type="html">Zusammenfassung des zweiten Artikels.</summary>
-    <content type="html">
-      <![CDATA[
-        <h1>Ein weiterer Artikel</h1>
-        <p>Dieser Artikel enthält nur Text.</p>
-      ]]>
-    </content>
-  </entry>
+</entry>
 
 </feed>
