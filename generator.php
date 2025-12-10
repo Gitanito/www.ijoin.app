@@ -1094,6 +1094,7 @@ HTML;
 
     // 6. Datei speichern
     file_put_contents($filename, $html);
+    file_put_contents("{$code}.html", "<meta http-equiv=\"refresh\" content=\"0; URL={$filename}\">");
     
     $sitemap = '<?xml version="1.0" encoding="UTF-8"?><urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">'.PHP_EOL;
     $sitemap .= '<url><loc>http://ijoin.app/index.html</loc></url>'.PHP_EOL;
