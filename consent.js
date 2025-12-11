@@ -36,7 +36,7 @@ document.addEventListener('DOMContentLoaded', function() {
     }
 
     // Geo-IP-Erkennung (Verwendung eines kostenlosen Dienstes, z.B. ip-api.com)
-    fetch('https://ip-api.com/json')
+    fetch('http://ip-api.com/json', {method: "GET", mode: 'cors'})
         .then(response => response.json())
         .then(data => {
             const euCountries = [
