@@ -53,7 +53,7 @@ document.addEventListener('DOMContentLoaded', function() {
             console.warn('Geo-IP-Dienst konnte nicht erreicht werden oder Fehler:', error);
             // Fallback: Wenn Geo-IP fehlschlägt, können Sie das Overlay standardmäßig anzeigen
             // oder eine andere Logik anwenden. Für maximale Sicherheit besser anzeigen.
-            // cookieOverlay.style.display = 'block';
+            cookieOverlay.style.display = 'block';
         });
 
     // Event Listener für "Akzeptieren"-Button
