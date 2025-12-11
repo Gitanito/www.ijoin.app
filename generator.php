@@ -40,7 +40,8 @@ $t_en = [
     "uc3_t" => "Professional Networking", "uc3_d" => "Networking events or workshops. Lower the barrier for registration.",
     "cta_h1" => "Ready for your next event?", "cta_h2" => "Start now for free.", "cta_d" => "No account needed, neither for you nor your guests. Try it in seconds.", "cta_btn" => "Create Event Now",
     "meta_desc" => "Create events and invite guests - no signup required. The easiest way for RSVPs.",
-    "title_suffix" => "- Event planning made simple"
+    "title_suffix" => "- Event planning made simple",
+    "sup_h" => "Our Supporters"
 ];
 
 // Spezifische Übersetzungen (Auszug für wichtige Sprachen)
@@ -67,7 +68,8 @@ $translations = [
         "uc3_t" => "Professionelle Netzwerke", "uc3_d" => "Networking-Events oder Workshops. Senke die Hürde.",
         "cta_h1" => "Bereit für dein nächstes Event?", "cta_h2" => "Starte jetzt kostenlos.", "cta_d" => "Kein Account notwendig. Probier es in Sekunden aus.", "cta_btn" => "Event jetzt erstellen",
         "meta_desc" => "Erstelle Events und lade Gäste ein – ganz ohne Anmeldung.",
-        "title_suffix" => "- Die einfachste Event-Planung"
+        "title_suffix" => "- Die einfachste Event-Planung",
+    "sup_h" => "Unsere Supporter"
     ],
     "es" => [
         "nav_feat" => "Funciones", "nav_how" => "Cómo funciona", "nav_ben" => "Beneficios", "btn_create" => "Crear evento",
@@ -90,7 +92,8 @@ $translations = [
         "uc3_t" => "Networking", "uc3_d" => "Eventos profesionales. Facilita el registro.",
         "cta_h1" => "¿Listo para tu evento?", "cta_h2" => "Empieza gratis.", "cta_d" => "Sin cuentas necesarias.", "cta_btn" => "Crear evento ahora",
         "meta_desc" => "Crea eventos e invita fácilmente sin registros.",
-        "title_suffix" => "- Planificación de eventos simple"
+        "title_suffix" => "- Planificación de eventos simple",
+    "sup_h" => "Nuestros Colaboradores"
     ],
     "fr" => [
         "nav_feat" => "Fonctionnalités", "nav_how" => "Comment ça marche", "nav_ben" => "Avantages", "btn_create" => "Créer un événement",
@@ -113,7 +116,8 @@ $translations = [
         "uc3_t" => "Réseaux professionnels", "uc3_d" => "Événements de networking ou ateliers. Réduisez les obstacles.",
         "cta_h1" => "Prêt pour votre prochain événement ?", "cta_h2" => "Démarrez maintenant gratuitement.", "cta_d" => "Pas besoin de compte. Essayez-le en quelques secondes.", "cta_btn" => "Créer un événement maintenant",
         "meta_desc" => "Créez des événements et invitez des invités – sans aucune inscription.",
-        "title_suffix" => "- La planification d'événements la plus simple"
+        "title_suffix" => "- La planification d'événements la plus simple",
+    "sup_h" => "Nos Supporters"
     ],
     "it" => [
         "nav_feat" => "Funzioni", "nav_how" => "Come funziona", "nav_ben" => "Vantaggi", "btn_create" => "Crea evento",
@@ -136,7 +140,8 @@ $translations = [
         "uc3_t" => "Reti professionali", "uc3_d" => "Eventi di networking o workshop. Riduci le barriere.",
         "cta_h1" => "Pronto per il tuo prossimo evento?", "cta_h2" => "Inizia ora gratuitamente.", "cta_d" => "Nessun account necessario. Provalo in pochi secondi.", "cta_btn" => "Crea evento ora",
         "meta_desc" => "Crea eventi e invita ospiti – senza registrazione.",
-        "title_suffix" => "- La pianificazione di eventi più semplice"
+        "title_suffix" => "- La pianificazione di eventi più semplice",
+    "sup_h" => "I Nostri Sostenitori"
     ],
     "hr" => [
         "nav_feat" => "Značajke", "nav_how" => "Kako radi", "nav_ben" => "Prednosti", "btn_create" => "Kreiraj događaj",
@@ -159,7 +164,8 @@ $translations = [
         "uc3_t" => "Profesionalne mreže", "uc3_d" => "Mrežni događaji ili radionice. Smanjite prepreke.",
         "cta_h1" => "Spremni za vaš sljedeći događaj?", "cta_h2" => "Započnite sada besplatno.", "cta_d" => "Nije potreban račun. Isprobajte za nekoliko sekundi.", "cta_btn" => "Kreiraj događaj sada",
         "meta_desc" => "Kreirajte događaje i pozovite goste – bez registracije.",
-        "title_suffix" => "- Najjednostavnije planiranje događaja"
+        "title_suffix" => "- Najjednostavnije planiranje događaja",
+    "sup_h" => "Naši Podupiratelji"
     ],
     "sq" => [
         "nav_feat" => "Funksionalitetet", "nav_how" => "Si funksionon", "nav_ben" => "Përfitimet", "btn_create" => "Krijo event",
@@ -182,7 +188,8 @@ $translations = [
         "uc3_t" => "Rrjetet profesionale", "uc3_d" => "Evente networking ose seminare. Ulni barrierën.",
         "cta_h1" => "Gati për eventin tuaj të ardhshëm?", "cta_h2" => "Fillo tani falas.", "cta_d" => "Nuk nevojitet llogari. Provoje në sekonda.", "cta_btn" => "Krijo eventin tani",
         "meta_desc" => "Krijo evente dhe ftoji të ftuar – pa regjistrim.",
-        "title_suffix" => "- Planifikimi më i thjeshtë i eventeve"
+        "title_suffix" => "- Planifikimi më i thjeshtë i eventeve",
+    "sup_h" => "Mbështetësit Tanë"
     ],
     "bs" => [
         "nav_feat" => "Funkcije", "nav_how" => "Kako radi", "nav_ben" => "Prednosti", "btn_create" => "Kreiraj događaj",
@@ -205,7 +212,8 @@ $translations = [
         "uc3_t" => "Profesionalne mreže", "uc3_d" => "Mrežni događaji ili radionice. Smanjite prepreke.",
         "cta_h1" => "Spremni za vaš sljedeći događaj?", "cta_h2" => "Započnite sada besplatno.", "cta_d" => "Nije potreban račun. Isprobajte za nekoliko sekundi.", "cta_btn" => "Kreiraj događaj sada",
         "meta_desc" => "Kreirajte događaje i pozovite goste – bez registracije.",
-        "title_suffix" => "- Najjednostavnije planiranje događaja"
+        "title_suffix" => "- Najjednostavnije planiranje događaja",
+    "sup_h" => "Naši Podržavaoci"
     ],
     "nl" => [
         "nav_feat" => "Functies", "nav_how" => "Hoe het werkt", "nav_ben" => "Voordelen", "btn_create" => "Evenement aanmaken",
@@ -228,7 +236,8 @@ $translations = [
         "uc3_t" => "Professionele netwerken", "uc3_d" => "Netwerkevenementen of workshops. Verlaag de drempel.",
         "cta_h1" => "Klaar voor je volgende evenement?", "cta_h2" => "Start nu gratis.", "cta_d" => "Geen account nodig. Probeer het binnen enkele seconden uit.", "cta_btn" => "Evenement nu aanmaken",
         "meta_desc" => "Maak evenementen aan en nodig gasten uit – zonder registratie.",
-        "title_suffix" => "- De eenvoudigste evenementenplanning"
+        "title_suffix" => "- De eenvoudigste evenementenplanning",
+    "sup_h" => "Onze Supporters"
     ],
     "tr" => [
         "nav_feat" => "Özellikler", "nav_how" => "Nasıl Çalışır", "nav_ben" => "Avantajlar", "btn_create" => "Etkinlik Oluştur",
@@ -251,7 +260,8 @@ $translations = [
         "uc3_t" => "Profesyonel Ağlar", "uc3_d" => "Ağ oluşturma etkinlikleri veya atölye çalışmaları. Engeli azaltın.",
         "cta_h1" => "Bir sonraki etkinliğiniz için hazır mısınız?", "cta_h2" => "Şimdi ücretsiz başlayın.", "cta_d" => "Hesap gerekmez. Birkaç saniye içinde deneyin.", "cta_btn" => "Şimdi etkinlik oluştur",
         "meta_desc" => "Etkinlikler oluşturun ve misafirleri davet edin – kayıt olmadan.",
-        "title_suffix" => "- En Basit Etkinlik Planlaması"
+        "title_suffix" => "- En Basit Etkinlik Planlaması",
+    "sup_h" => "Destekçilerimiz"
     ],
     "uk" => [
         "nav_feat" => "Функції", "nav_how" => "Як це працює", "nav_ben" => "Переваги", "btn_create" => "Створити подію",
@@ -274,7 +284,8 @@ $translations = [
         "uc3_t" => "Професійні мережі", "uc3_d" => "Мережеві заходи або семінари. Знизьте бар'єр.",
         "cta_h1" => "Готові до вашої наступної події?", "cta_h2" => "Почніть зараз безкоштовно.", "cta_d" => "Обліковий запис не потрібен. Спробуйте за кілька секунд.", "cta_btn" => "Створити подію зараз",
         "meta_desc" => "Створюйте події та запрошуйте гостей – без реєстрації.",
-        "title_suffix" => "- Найпростіше планування подій"
+        "title_suffix" => "- Найпростіше планування подій",
+    "sup_h" => "Наші прихильники"
     ],
     "pt" => [
         "nav_feat" => "Funcionalidades", "nav_how" => "Como funciona", "nav_ben" => "Vantagens", "btn_create" => "Criar evento",
@@ -297,7 +308,8 @@ $translations = [
         "uc3_t" => "Redes profissionais", "uc3_d" => "Eventos de networking ou workshops. Reduza a barreira.",
         "cta_h1" => "Pronto para o seu próximo evento?", "cta_h2" => "Comece agora gratuitamente.", "cta_d" => "Não é necessário conta. Experimente em segundos.", "cta_btn" => "Criar evento agora",
         "meta_desc" => "Crie eventos e convide pessoas – sem registo.",
-        "title_suffix" => "- O planeamento de eventos mais simples"
+        "title_suffix" => "- O planeamento de eventos mais simples",
+    "sup_h" => "Nossos Apoiadores"
     ],
     "ru" => [
         "nav_feat" => "Функции", "nav_how" => "Как это работает", "nav_ben" => "Преимущества", "btn_create" => "Создать событие",
@@ -320,7 +332,8 @@ $translations = [
         "uc3_t" => "Профессиональные сети", "uc3_d" => "Сетевые мероприятия или семинары. Снизьте барьер.",
         "cta_h1" => "Готовы к вашему следующему событию?", "cta_h2" => "Начните сейчас бесплатно.", "cta_d" => "Учетная запись не требуется. Попробуйте за несколько секунд.", "cta_btn" => "Создать событие сейчас",
         "meta_desc" => "Создавайте события и приглашайте гостей – без регистрации.",
-        "title_suffix" => "- Простейшее планирование событий"
+        "title_suffix" => "- Простейшее планирование событий",
+    "sup_h" => "Наши сторонники"
     ],
     "cs" => [
         "nav_feat" => "Funkce", "nav_how" => "Jak to funguje", "nav_ben" => "Výhody", "btn_create" => "Vytvořit událost",
@@ -343,7 +356,8 @@ $translations = [
         "uc3_t" => "Profesionální sítě", "uc3_d" => "Networkingové akce nebo workshopy. Snižte bariéru.",
         "cta_h1" => "Připraveni na vaši další událost?", "cta_h2" => "Začněte nyní zdarma.", "cta_d" => "Není nutný účet. Vyzkoušejte to během několika sekund.", "cta_btn" => "Vytvořit událost nyní",
         "meta_desc" => "Vytvářejte události a zvěte hosty – bez registrace.",
-        "title_suffix" => "- Nejjednodušší plánování událostí"
+        "title_suffix" => "- Nejjednodušší plánování událostí",
+    "sup_h" => "Naši podporovatelé"
     ],
     "da" => [
         "nav_feat" => "Funktioner", "nav_how" => "Sådan fungerer det", "nav_ben" => "Fordele", "btn_create" => "Opret begivenhed",
@@ -366,7 +380,8 @@ $translations = [
         "uc3_t" => "Professionelle netværk", "uc3_d" => "Netværksarrangementer eller workshops. Sænk barrieren.",
         "cta_h1" => "Klar til din næste begivenhed?", "cta_h2" => "Start nu gratis.", "cta_d" => "Ingen konto nødvendig. Prøv det på få sekunder.", "cta_btn" => "Opret begivenhed nu",
         "meta_desc" => "Opret begivenheder og inviter gæster – uden registrering.",
-        "title_suffix" => "- Den nemmeste begivenhedsplanlægning"
+        "title_suffix" => "- Den nemmeste begivenhedsplanlægning",
+    "sup_h" => "Vores Supportere"
     ],
     "et" => [
         "nav_feat" => "Funktsioonid", "nav_how" => "Kuidas see töötab", "nav_ben" => "Eelised", "btn_create" => "Loo sündmus",
@@ -389,7 +404,8 @@ $translations = [
         "uc3_t" => "Professionaalsed võrgustikud", "uc3_d" => "Võrgustikuüritused või töötoad. Vähenda takistusi.",
         "cta_h1" => "Valmis oma järgmiseks sündmuseks?", "cta_h2" => "Alusta nüüd tasuta.", "cta_d" => "Kontot pole vaja. Proovi seda sekunditega.", "cta_btn" => "Loo sündmus kohe",
         "meta_desc" => "Loo sündmusi ja kutsu külalisi – ilma registreerimiseta.",
-        "title_suffix" => "- Kõige lihtsam sündmuste planeerimine"
+        "title_suffix" => "- Kõige lihtsam sündmuste planeerimine",
+    "sup_h" => "Meie toetajad"
     ],
     "fi" => [
         "nav_feat" => "Ominaisuudet", "nav_how" => "Miten se toimii", "nav_ben" => "Edut", "btn_create" => "Luo tapahtuma",
@@ -412,7 +428,8 @@ $translations = [
         "uc3_t" => "Ammattiverkostot", "uc3_d" => "Verkostoitumistapahtumat tai työpajat. Alenna kynnystä.",
         "cta_h1" => "Valmiina seuraavaan tapahtumaasi?", "cta_h2" => "Aloita nyt ilmaiseksi.", "cta_d" => "Tiliä ei tarvita. Kokeile sekunneissa.", "cta_btn" => "Luo tapahtuma nyt",
         "meta_desc" => "Luo tapahtumia ja kutsu vieraita – ilman rekisteröitymistä.",
-        "title_suffix" => "- Helpoin tapahtumasuunnittelu"
+        "title_suffix" => "- Helpoin tapahtumasuunnittelu",
+    "sup_h" => "Tukijamme"
     ],
     "hu" => [
         "nav_feat" => "Funkciók", "nav_how" => "Így működik", "nav_ben" => "Előnyök", "btn_create" => "Esemény létrehozása",
@@ -435,7 +452,8 @@ $translations = [
         "uc3_t" => "Professzionális hálózatok", "uc3_d" => "Networking események vagy workshopok. Csökkentsd az akadályt.",
         "cta_h1" => "Készen állsz a következő eseményedre?", "cta_h2" => "Indítsd el most ingyen.", "cta_d" => "Nincs szükség fiókra. Próbáld ki másodpercek alatt.", "cta_btn" => "Esemény létrehozása most",
         "meta_desc" => "Hozzon létre eseményeket és hívjon meg vendégeket – regisztráció nélkül.",
-        "title_suffix" => "- A legegyszerűbb eseménytervezés"
+        "title_suffix" => "- A legegyszerűbb eseménytervezés",
+    "sup_h" => "Támogatóink"
     ],
     "sr" => [
         "nav_feat" => "Funkcije", "nav_how" => "Kako funkcioniše", "nav_ben" => "Prednosti", "btn_create" => "Kreiraj događaj",
@@ -458,7 +476,8 @@ $translations = [
         "uc3_t" => "Profesionalne mreže", "uc3_d" => "Mrežni događaji ili radionice. Smanjite prepreke.",
         "cta_h1" => "Spremni za vaš sledeći događaj?", "cta_h2" => "Započnite sada besplatno.", "cta_d" => "Nije potreban nalog. Isprobajte za nekoliko sekundi.", "cta_btn" => "Kreiraj događaj sada",
         "meta_desc" => "Kreirajte događaje i pozovite goste – bez registracije.",
-        "title_suffix" => "- Najjednostavnije planiranje događaja"
+        "title_suffix" => "- Najjednostavnije planiranje događaja",
+    "sup_h" => "Наши подржаваоци"
     ],
     "sk" => [
         "nav_feat" => "Funkcie", "nav_how" => "Ako to funguje", "nav_ben" => "Výhody", "btn_create" => "Vytvoriť udalosť",
@@ -481,7 +500,8 @@ $translations = [
         "uc3_t" => "Profesionálne siete", "uc3_d" => "Networkingové akcie alebo workshopy. Znížte bariéru.",
         "cta_h1" => "Pripravení na vašu ďalšiu udalosť?", "cta_h2" => "Začnite teraz zadarmo.", "cta_d" => "Nie je potrebný účet. Vyskúšajte to v priebehu niekoľkých sekúnd.", "cta_btn" => "Vytvoriť udalosť teraz",
         "meta_desc" => "Vytvárajte udalosti a pozývajte hostí – bez registrácie.",
-        "title_suffix" => "- Najjednoduchšie plánovanie udalostí"
+        "title_suffix" => "- Najjednoduchšie plánovanie udalostí",
+    "sup_h" => "Naši podporovatelia"
     ],
     "sl" => [
         "nav_feat" => "Funkcije", "nav_how" => "Kako deluje", "nav_ben" => "Prednosti", "btn_create" => "Ustvari dogodek",
@@ -504,7 +524,8 @@ $translations = [
         "uc3_t" => "Poklicne mreže", "uc3_d" => "Dogodki mreženja ali delavnice. Zmanjšajte ovire.",
         "cta_h1" => "Pripravljeni na vaš naslednji dogodek?", "cta_h2" => "Začnite zdaj brezplačno.", "cta_d" => "Račun ni potreben. Preizkusite ga v nekaj sekundah.", "cta_btn" => "Ustvari dogodek zdaj",
         "meta_desc" => "Ustvarite dogodke in povabite goste – brez registracije.",
-        "title_suffix" => "- Najenostavnejše načrtovanje dogodkov"
+        "title_suffix" => "- Najenostavnejše načrtovanje dogodkov",
+    "sup_h" => "Naši podporniki"
     ],
     "sv" => [
         "nav_feat" => "Funktioner", "nav_how" => "Så fungerar det", "nav_ben" => "Fördelar", "btn_create" => "Skapa evenemang",
@@ -527,7 +548,8 @@ $translations = [
         "uc3_t" => "Professionella nätverk", "uc3_d" => "Nätverksevenemang eller workshops. Sänk tröskeln.",
         "cta_h1" => "Redo för ditt nästa evenemang?", "cta_h2" => "Starta nu gratis.", "cta_d" => "Inget konto behövs. Prova det på några sekunder.", "cta_btn" => "Skapa evenemang nu",
         "meta_desc" => "Skapa evenemang och bjud in gäster – utan registrering.",
-        "title_suffix" => "- Den enklaste evenemangsplaneringen"
+        "title_suffix" => "- Den enklaste evenemangsplaneringen",
+    "sup_h" => "Våra supportrar"
     ],
     "no" => [
         "nav_feat" => "Funksjoner", "nav_how" => "Slik fungerer det", "nav_ben" => "Fordeler", "btn_create" => "Opprett arrangement",
@@ -550,7 +572,8 @@ $translations = [
         "uc3_t" => "Profesjonelle nettverk", "uc3_d" => "Nettverksarrangementer eller workshops. Senk terskelen.",
         "cta_h1" => "Klar for ditt neste arrangement?", "cta_h2" => "Start nå gratis.", "cta_d" => "Ingen konto nødvendig. Prøv det på sekunder.", "cta_btn" => "Opprett arrangement nå",
         "meta_desc" => "Opprett arrangementer og inviter gjester – uten registrering.",
-        "title_suffix" => "- Den enkleste arrangementsplanleggingen"
+        "title_suffix" => "- Den enkleste arrangementsplanleggingen",
+    "sup_h" => "Våre supportere"
     ],
     "pl" => [
         "nav_feat" => "Funkcje", "nav_how" => "Jak to działa", "nav_ben" => "Zalety", "btn_create" => "Utwórz wydarzenie",
@@ -573,7 +596,8 @@ $translations = [
         "uc3_t" => "Sieci profesjonalne", "uc3_d" => "Wydarzenia networkingowe lub warsztaty. Obniż barierę.",
         "cta_h1" => "Gotowy na Twoje kolejne wydarzenie?", "cta_h2" => "Rozpocznij teraz bezpłatnie.", "cta_d" => "Konto nie jest potrzebne. Wypróbuj w kilka sekund.", "cta_btn" => "Utwórz wydarzenie teraz",
         "meta_desc" => "Twórz wydarzenia i zapraszaj gości – bez rejestracji.",
-        "title_suffix" => "- Najprostsze planowanie wydarzeń"
+        "title_suffix" => "- Najprostsze planowanie wydarzeń",
+    "sup_h" => "Nasi Wspierający"
     ],
     "bg" => [
         "nav_feat" => "Функции", "nav_how" => "Как работи", "nav_ben" => "Предимства", "btn_create" => "Създай събитие",
@@ -596,7 +620,8 @@ $translations = [
         "uc3_t" => "Професионални мрежи", "uc3_d" => "Мрежови събития или семинари. Намалете бариерата.",
         "cta_h1" => "Готови ли сте за следващото си събитие?", "cta_h2" => "Започнете сега безплатно.", "cta_d" => "Не е необходим акаунт. Изпробвайте го за секунди.", "cta_btn" => "Създай събитие сега",
         "meta_desc" => "Създавайте събития и канете гости – без регистрация.",
-        "title_suffix" => "- Най-лесното планиране на събития"
+        "title_suffix" => "- Най-лесното планиране на събития",
+    "sup_h" => "Нашите поддръжници"
     ],
     "he" => [
         "nav_feat" => "תכונות", "nav_how" => "איך זה עובד", "nav_ben" => "יתרונות", "btn_create" => "צור אירוע",
@@ -619,7 +644,8 @@ $translations = [
         "uc3_t" => "רשתות מקצועיות", "uc3_d" => "אירועי נטוורקינג או סדנאות. הורד את החסם.",
         "cta_h1" => "מוכן לאירוע הבא שלך?", "cta_h2" => "התחל עכשיו בחינם.", "cta_d" => "אין צורך בחשבון. נסה תוך שניות.", "cta_btn" => "צור אירוע עכשיו",
         "meta_desc" => "צור אירועים והזמן אורחים – ללא הרשמה.",
-        "title_suffix" => "- תכנון האירועים הפשוט ביותר"
+        "title_suffix" => "- תכנון האירועים הפשוט ביותר",
+    "sup_h" => "התומכים שלנו"
     ],
     "af" => [
         "nav_feat" => "Funksies", "nav_how" => "Hoe dit werk", "nav_ben" => "Voordele", "btn_create" => "Skep gebeurtenis",
@@ -642,7 +668,8 @@ $translations = [
         "uc3_t" => "Professionele netwerke", "uc3_d" => "Netwerkgeleenthede of werkswinkels. Verlaag die drempel.",
         "cta_h1" => "Gereed vir jou volgende gebeurtenis?", "cta_h2" => "Begin nou gratis.", "cta_d" => "Geen rekening nodig nie. Probeer dit binne sekondes.", "cta_btn" => "Skep gebeurtenis nou",
         "meta_desc" => "Skep gebeurtenisse en nooi gaste uit – sonder registrasie.",
-        "title_suffix" => "- Die eenvoudigste gebeurtenisbeplanning"
+        "title_suffix" => "- Die eenvoudigste gebeurtenisbeplanning",
+    "sup_h" => "Ons Ondersteuners"
     ],
     "ar" => [
         "nav_feat" => "الميزات", "nav_how" => "كيف يعمل", "nav_ben" => "الفوائد", "btn_create" => "إنشاء حدث",
@@ -665,7 +692,8 @@ $translations = [
         "uc3_t" => "شبكات احترافية", "uc3_d" => "فعاليات التواصل أو ورش العمل. اخفض الحاجز.",
         "cta_h1" => "هل أنت مستعد لحدثك التالي؟", "cta_h2" => "ابدأ الآن مجاناً.", "cta_d" => "لا يلزم وجود حساب. جربه في ثوانٍ.", "cta_btn" => "أنشئ حدثاً الآن",
         "meta_desc" => "أنشئ فعاليات وادعُ الضيوف - دون تسجيل.",
-        "title_suffix" => "- أبسط تخطيط للفعاليات"
+        "title_suffix" => "- أبسط تخطيط للفعاليات",
+    "sup_h" => "داعمونا"
     ],
     "zh" => [
         "nav_feat" => "功能", "nav_how" => "工作原理", "nav_ben" => "优势", "btn_create" => "创建活动",
@@ -688,7 +716,8 @@ $translations = [
         "uc3_t" => "专业网络", "uc3_d" => "社交活动或研讨会。降低门槛。",
         "cta_h1" => "准备好迎接您的下一个活动了吗？", "cta_h2" => "立即免费开始。", "cta_d" => "无需账户。几秒钟即可试用。", "cta_btn" => "立即创建活动",
         "meta_desc" => "创建活动并邀请客人 – 无需注册。",
-        "title_suffix" => "- 最简单的活动规划"
+        "title_suffix" => "- 最简单的活动规划",
+    "sup_h" => "我们的支持者"
     ],
     "hi" => [
         "nav_feat" => "विशेषताएँ", "nav_how" => "यह कैसे काम करता है", "nav_ben" => "फ़ायदे", "btn_create" => "इवेंट बनाएँ",
@@ -711,7 +740,8 @@ $translations = [
         "uc3_t" => "पेशेवर नेटवर्क", "uc3_d" => "नेटवर्किंग इवेंट या वर्कशॉप। बाधा कम करें।",
         "cta_h1" => "अपने अगले इवेंट के लिए तैयार हैं?", "cta_h2" => "अभी मुफ़्त में शुरू करें।", "cta_d" => "अकाउंट की आवश्यकता नहीं। कुछ ही सेकंड में इसे आज़माएँ।", "cta_btn" => "अभी इवेंट बनाएँ",
         "meta_desc" => "इवेंट बनाएँ और मेहमानों को आमंत्रित करें - बिना पंजीकरण के।",
-        "title_suffix" => "- सबसे आसान इवेंट प्लानिंग"
+        "title_suffix" => "- सबसे आसान इवेंट प्लानिंग",
+    "sup_h" => "हमारे समर्थक"
     ],
     "bn" => [
         "nav_feat" => "বৈশিষ্ট্য", "nav_how" => "কীভাবে কাজ করে", "nav_ben" => "সুবিধাগুলি", "btn_create" => "ইভেন্ট তৈরি করুন",
@@ -734,7 +764,8 @@ $translations = [
         "uc3_t" => "পেশাদার নেটওয়ার্ক", "uc3_d" => "নেটওয়ার্কিং ইভেন্ট বা ওয়ার্কশপ। বাধা কমিয়ে দিন।",
         "cta_h1" => "আপনার পরবর্তী ইভেন্টের জন্য প্রস্তুত?", "cta_h2" => "এখন বিনামূল্যে শুরু করুন।", "cta_d" => "কোনো অ্যাকাউন্টের প্রয়োজন নেই। কয়েক সেকেন্ডের মধ্যে এটি চেষ্টা করুন।", "cta_btn" => "এখনই ইভেন্ট তৈরি করুন",
         "meta_desc" => "ইভেন্ট তৈরি করুন এবং অতিথিদের আমন্ত্রণ জানান - নিবন্ধন ছাড়াই।",
-        "title_suffix" => "- সবচেয়ে সহজ ইভেন্ট পরিকল্পনা"
+        "title_suffix" => "- সবচেয়ে সহজ ইভেন্ট পরিকল্পনা",
+    "sup_h" => "আমাদের সমর্থকরা"
     ]
     // Hier können weitere Sprachen wie 'fr', 'it' etc. nach demselben Muster hinzugefügt werden.
     // Falls eine Sprache fehlt, wird automatisch Englisch (t_en) verwendet.
@@ -1032,6 +1063,26 @@ foreach ($languages as $langData) {
             </a>
         </div>
     </div>
+
+    <!-- Our Supporters Section -->
+    <section class="py-12 bg-gray-50 border-t border-gray-200">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <h3 class="text-sm font-semibold text-gray-400 tracking-wider uppercase mb-6">{$currentTrans['sup_h']}</h3>
+            <div class="flex flex-wrap justify-center gap-8 md:gap-12 opacity-75">
+                <!-- Example Links (Add your supporters here) -->
+                <a target="_blank" href="https://acidtools.com"><img src="https://acidtools.com/assets/images/badge.png" alt="Acid Tools" height="54"></a>
+                <a target="_blank" href="https://www.hot100.ai" class="text-gray-500 hover:text-[#3f91cb] font-semibold transition">hot100.ai</a>
+                <a target="_blank" href="https://dang.ai/" class="text-gray-500 hover:text-[#3f91cb] font-semibold transition">dang.ai/</a>
+                <a target="_blank" href="https://www.saashub.com/" class="text-gray-500 hover:text-[#3f91cb] font-semibold transition">saashub.com</a>
+                <a target="_blank" href="https://betalist.com" class="text-gray-500 hover:text-[#3f91cb] font-semibold transition">betalist.com</a>
+                <a target="_blank" href="https://alternative.me" class="text-gray-500 hover:text-[#3f91cb] font-semibold transition">alternative.me</a>
+                <a target="_blank" href="https://futuretools.io" class="text-gray-500 hover:text-[#3f91cb] font-semibold transition">futuretools.io</a>
+                <a target="_blank" href="https://devhunt.org" class="text-gray-500 hover:text-[#3f91cb] font-semibold transition">devhunt.org</a>
+                <a target="_blank" href="https://toolsfine.com" class="text-gray-500 hover:text-[#3f91cb] font-semibold transition">toolsfine.com</a>
+                <a target="_blank" href="https://open-launch.com/" class="text-gray-500 hover:text-[#3f91cb] font-semibold transition">open-launch.com</a>
+            </div>
+        </div>
+    </section>
 
     <!-- Footer -->
     <footer class="bg-gray-50 border-t border-gray-200">
