@@ -285,6 +285,7 @@
                 <a target="_blank" href="https://devhunt.org" class="inline-flex items-center justify-center px-5 py-3 border border-black text-base text-2xl font-black rounded-md text-black bg-white hover:bg-gray-50 sm:w-auto transition">DevHunt</a>
                 <a target="_blank" href="https://toolsfine.com" class="inline-flex items-center justify-center px-5 py-3 border border-black text-base text-2xl font-black rounded-md text-black bg-white hover:bg-gray-50 sm:w-auto transition">toolsfine</a>
                 <a target="_blank" href="https://open-launch.com/" class="inline-flex items-center justify-center px-5 py-3 border border-black text-base text-2xl font-black rounded-md text-black bg-white hover:bg-gray-50 sm:w-auto transition">Open Launch</a>
+                <a target="_blank" href="https://ideakiln.com/" class="inline-flex items-center justify-center px-5 py-3 border border-black text-base text-2xl font-black rounded-md text-black bg-white hover:bg-gray-50 sm:w-auto transition">Idea Kiln</a>
             </div>
         </div>
     </section>
@@ -293,6 +294,7 @@
     <footer class="bg-gray-50 border-t border-gray-200">
         <div class="max-w-7xl mx-auto py-12 px-4 sm:px-6 md:flex md:items-center md:justify-between lg:px-8">
             <div class="flex justify-center space-x-6 md:order-2">
+                <a href="/datenschutz" class="text-gray-400 hover:text-gray-500">מדיניות פרטיות</a>
                 <a href="#" class="text-gray-400 hover:text-gray-500"><span class="sr-only">Instagram</span><i class="fa-brands fa-instagram text-xl"></i></a>
                 <a href="#" class="text-gray-400 hover:text-gray-500"><span class="sr-only">Twitter</span><i class="fa-brands fa-twitter text-xl"></i></a>
                 <a href="#" class="text-gray-400 hover:text-gray-500"><span class="sr-only">Email</span><i class="fa-solid fa-envelope text-xl"></i></a>
@@ -302,6 +304,15 @@
             </div>
         </div>
     </footer>
+    
+    
+	<div id="cookieOverlay" style="display:none; position: fixed; bottom: 0; left: 0; width: 100%; background-color: #f0f0f0; padding: 20px; text-align: center; box-shadow: 0 -2px 10px rgba(0,0,0,0.1);">
+		<p>אתר זה משתמש בקובצי Cookie כדי לשפר את חווית המשתמש. על ידי המשך הגלישה, אתה מסכים לשימוש בקובצי Cookie.</p>
+		<button id="acceptCookies" style="background-color: #4CAF50; color: white; padding: 10px 20px; border: none; cursor: pointer; margin-right: 10px;">אשר קובצי Cookie</button>
+		<button id="declineCookies" style="background-color: #f44336; color: white; padding: 10px 20px; border: none; cursor: pointer;">דחה קובצי Cookie</button>
+		<a href="/datenschutz" style="margin-left: 15px; color: #333;">מדיניות פרטיות</a>
+	</div>
+
 
     <script>
         document.querySelectorAll('a[href^="#"]').forEach(anchor => {
@@ -344,5 +355,6 @@
 			
     </script>
     <script defer src="https://cloud.umami.is/script.js" data-website-id="4d3f573f-5598-43dd-b737-56d09fb03875"></script>
+    <script src="consent.js" defer></script>
 </body>
 </html>

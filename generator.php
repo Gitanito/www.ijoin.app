@@ -41,7 +41,11 @@ $t_en = [
     "cta_h1" => "Ready for your next event?", "cta_h2" => "Start now for free.", "cta_d" => "No account needed, neither for you nor your guests. Try it in seconds.", "cta_btn" => "Create Event Now",
     "meta_desc" => "Create events and invite guests - no signup required. The easiest way for RSVPs.",
     "title_suffix" => "- Event planning made simple",
-    "sup_h" => "Our Supporters"
+    "sup_h" => "Our Supporters",
+    "cookiesInfo" => "This website uses cookies to improve user experience. By continuing, you agree to the use of cookies.",
+    "cookiesYes" => "Accept Cookies",
+    "cookiesNo" => "Reject Cookies",
+    "privacy_policy" => "Privacy Policy"
 ];
 
 // Spezifische Übersetzungen (Auszug für wichtige Sprachen)
@@ -69,7 +73,11 @@ $translations = [
         "cta_h1" => "Bereit für dein nächstes Event?", "cta_h2" => "Starte jetzt kostenlos.", "cta_d" => "Kein Account notwendig. Probier es in Sekunden aus.", "cta_btn" => "Event jetzt erstellen",
         "meta_desc" => "Erstelle Events und lade Gäste ein – ganz ohne Anmeldung.",
         "title_suffix" => "- Die einfachste Event-Planung",
-    "sup_h" => "Unsere Supporter"
+    "sup_h" => "Unsere Supporter",
+    "cookiesInfo" => "Diese Webseite verwendet Cookies, um die Benutzerfreundlichkeit zu verbessern. Indem Sie fortfahren, stimmen Sie der Verwendung von Cookies zu.",
+    "cookiesYes" => "Cookies akzeptieren",
+    "cookiesNo" => "Cookies ablehnen",
+    "privacy_policy" => "Datenschutzerklärung"
     ],
     "es" => [
         "nav_feat" => "Funciones", "nav_how" => "Cómo funciona", "nav_ben" => "Beneficios", "btn_create" => "Crear evento",
@@ -93,7 +101,11 @@ $translations = [
         "cta_h1" => "¿Listo para tu evento?", "cta_h2" => "Empieza gratis.", "cta_d" => "Sin cuentas necesarias.", "cta_btn" => "Crear evento ahora",
         "meta_desc" => "Crea eventos e invita fácilmente sin registros.",
         "title_suffix" => "- Planificación de eventos simple",
-    "sup_h" => "Nuestros Colaboradores"
+    "sup_h" => "Nuestros Colaboradores",
+    "cookiesInfo" => "Este sitio web utiliza cookies para mejorar la experiencia del usuario. Al continuar, usted acepta el uso de cookies.",
+    "cookiesYes" => "Aceptar cookies",
+    "cookiesNo" => "Rechazar cookies",
+    "privacy_policy" => "Política de privacidad"
     ],
     "fr" => [
         "nav_feat" => "Fonctionnalités", "nav_how" => "Comment ça marche", "nav_ben" => "Avantages", "btn_create" => "Créer un événement",
@@ -117,7 +129,11 @@ $translations = [
         "cta_h1" => "Prêt pour votre prochain événement ?", "cta_h2" => "Démarrez maintenant gratuitement.", "cta_d" => "Pas besoin de compte. Essayez-le en quelques secondes.", "cta_btn" => "Créer un événement maintenant",
         "meta_desc" => "Créez des événements et invitez des invités – sans aucune inscription.",
         "title_suffix" => "- La planification d'événements la plus simple",
-    "sup_h" => "Nos Supporters"
+    "sup_h" => "Nos Supporters",
+    "cookiesInfo" => "Ce site web utilise des cookies pour améliorer l'expérience utilisateur. En continuant, vous acceptez l'utilisation des cookies.",
+    "cookiesYes" => "Accepter les cookies",
+    "cookiesNo" => "Refuser les cookies",
+    "privacy_policy" => "Politique de confidentialité"
     ],
     "it" => [
         "nav_feat" => "Funzioni", "nav_how" => "Come funziona", "nav_ben" => "Vantaggi", "btn_create" => "Crea evento",
@@ -141,7 +157,11 @@ $translations = [
         "cta_h1" => "Pronto per il tuo prossimo evento?", "cta_h2" => "Inizia ora gratuitamente.", "cta_d" => "Nessun account necessario. Provalo in pochi secondi.", "cta_btn" => "Crea evento ora",
         "meta_desc" => "Crea eventi e invita ospiti – senza registrazione.",
         "title_suffix" => "- La pianificazione di eventi più semplice",
-    "sup_h" => "I Nostri Sostenitori"
+    "sup_h" => "I Nostri Sostenitori",
+    "cookiesInfo" => "Questo sito web utilizza i cookie per migliorare l'esperienza dell'utente. Continuando, accetti l'uso dei cookie.",
+    "cookiesYes" => "Accetta cookie",
+    "cookiesNo" => "Rifiuta i cookie",
+    "privacy_policy" => "Informativa sulla privacy"
     ],
     "hr" => [
         "nav_feat" => "Značajke", "nav_how" => "Kako radi", "nav_ben" => "Prednosti", "btn_create" => "Kreiraj događaj",
@@ -165,7 +185,11 @@ $translations = [
         "cta_h1" => "Spremni za vaš sljedeći događaj?", "cta_h2" => "Započnite sada besplatno.", "cta_d" => "Nije potreban račun. Isprobajte za nekoliko sekundi.", "cta_btn" => "Kreiraj događaj sada",
         "meta_desc" => "Kreirajte događaje i pozovite goste – bez registracije.",
         "title_suffix" => "- Najjednostavnije planiranje događaja",
-    "sup_h" => "Naši Podupiratelji"
+    "sup_h" => "Naši Podupiratelji",
+    "cookiesInfo" => "Ova web stranica koristi kolačiće za poboljšanje korisničkog iskustva. Nastavkom pristajete na korištenje kolačića.",
+    "cookiesYes" => "Prihvati kolačiće",
+    "cookiesNo" => "Odbij kolačiće",
+    "privacy_policy" => "Pravila o privatnosti"
     ],
     "sq" => [
         "nav_feat" => "Funksionalitetet", "nav_how" => "Si funksionon", "nav_ben" => "Përfitimet", "btn_create" => "Krijo event",
@@ -189,7 +213,11 @@ $translations = [
         "cta_h1" => "Gati për eventin tuaj të ardhshëm?", "cta_h2" => "Fillo tani falas.", "cta_d" => "Nuk nevojitet llogari. Provoje në sekonda.", "cta_btn" => "Krijo eventin tani",
         "meta_desc" => "Krijo evente dhe ftoji të ftuar – pa regjistrim.",
         "title_suffix" => "- Planifikimi më i thjeshtë i eventeve",
-    "sup_h" => "Mbështetësit Tanë"
+    "sup_h" => "Mbështetësit Tanë",
+    "cookiesInfo" => "Kjo faqe interneti përdor cookie për të përmirësuar përvojën e përdoruesit. Duke vazhduar, ju pranoni përdorimin e cookie-ve.",
+    "cookiesYes" => "Prano biskotat",
+    "cookiesNo" => "Refuzo biskotat",
+    "privacy_policy" => "Politika e privatësisë"
     ],
     "bs" => [
         "nav_feat" => "Funkcije", "nav_how" => "Kako radi", "nav_ben" => "Prednosti", "btn_create" => "Kreiraj događaj",
@@ -213,7 +241,11 @@ $translations = [
         "cta_h1" => "Spremni za vaš sljedeći događaj?", "cta_h2" => "Započnite sada besplatno.", "cta_d" => "Nije potreban račun. Isprobajte za nekoliko sekundi.", "cta_btn" => "Kreiraj događaj sada",
         "meta_desc" => "Kreirajte događaje i pozovite goste – bez registracije.",
         "title_suffix" => "- Najjednostavnije planiranje događaja",
-    "sup_h" => "Naši Podržavaoci"
+    "sup_h" => "Naši Podržavaoci",
+    "cookiesInfo" => "Ova web stranica koristi kolačiće za poboljšanje korisničkog iskustva. Nastavkom, slažete se sa upotrebom kolačića.",
+    "cookiesYes" => "Prihvati kolačiće",
+    "cookiesNo" => "Odbij kolačiće",
+    "privacy_policy" => "Politika privatnosti"
     ],
     "nl" => [
         "nav_feat" => "Functies", "nav_how" => "Hoe het werkt", "nav_ben" => "Voordelen", "btn_create" => "Evenement aanmaken",
@@ -237,7 +269,11 @@ $translations = [
         "cta_h1" => "Klaar voor je volgende evenement?", "cta_h2" => "Start nu gratis.", "cta_d" => "Geen account nodig. Probeer het binnen enkele seconden uit.", "cta_btn" => "Evenement nu aanmaken",
         "meta_desc" => "Maak evenementen aan en nodig gasten uit – zonder registratie.",
         "title_suffix" => "- De eenvoudigste evenementenplanning",
-    "sup_h" => "Onze Supporters"
+    "sup_h" => "Onze Supporters",
+    "cookiesInfo" => "Deze website gebruikt cookies om de gebruikerservaring te verbeteren. Door verder te gaan, stemt u in met het gebruik van cookies.",
+    "cookiesYes" => "Cookies accepteren",
+    "cookiesNo" => "Cookies weigeren",
+    "privacy_policy" => "Privacybeleid"
     ],
     "tr" => [
         "nav_feat" => "Özellikler", "nav_how" => "Nasıl Çalışır", "nav_ben" => "Avantajlar", "btn_create" => "Etkinlik Oluştur",
@@ -261,7 +297,11 @@ $translations = [
         "cta_h1" => "Bir sonraki etkinliğiniz için hazır mısınız?", "cta_h2" => "Şimdi ücretsiz başlayın.", "cta_d" => "Hesap gerekmez. Birkaç saniye içinde deneyin.", "cta_btn" => "Şimdi etkinlik oluştur",
         "meta_desc" => "Etkinlikler oluşturun ve misafirleri davet edin – kayıt olmadan.",
         "title_suffix" => "- En Basit Etkinlik Planlaması",
-    "sup_h" => "Destekçilerimiz"
+    "sup_h" => "Destekçilerimiz",
+    "cookiesInfo" => "Bu web sitesi, kullanıcı deneyimini geliştirmek için çerezler kullanır. Devam ederek çerez kullanımını kabul etmiş olursunuz.",
+    "cookiesYes" => "Çerezleri Kabul Et",
+    "cookiesNo" => "Çerezleri Reddet",
+    "privacy_policy" => "Gizlilik Politikası"
     ],
     "uk" => [
         "nav_feat" => "Функції", "nav_how" => "Як це працює", "nav_ben" => "Переваги", "btn_create" => "Створити подію",
@@ -285,7 +325,11 @@ $translations = [
         "cta_h1" => "Готові до вашої наступної події?", "cta_h2" => "Почніть зараз безкоштовно.", "cta_d" => "Обліковий запис не потрібен. Спробуйте за кілька секунд.", "cta_btn" => "Створити подію зараз",
         "meta_desc" => "Створюйте події та запрошуйте гостей – без реєстрації.",
         "title_suffix" => "- Найпростіше планування подій",
-    "sup_h" => "Наші прихильники"
+    "sup_h" => "Наші прихильники",
+    "cookiesInfo" => "Цей веб-сайт використовує файли cookie для покращення взаємодії з користувачем. Продовжуючи, ви погоджуєтеся на використання файлів cookie.",
+    "cookiesYes" => "Прийняти файли cookie",
+    "cookiesNo" => "Відхилити файли cookie",
+    "privacy_policy" => "Політика конфіденційності"
     ],
     "pt" => [
         "nav_feat" => "Funcionalidades", "nav_how" => "Como funciona", "nav_ben" => "Vantagens", "btn_create" => "Criar evento",
@@ -309,7 +353,11 @@ $translations = [
         "cta_h1" => "Pronto para o seu próximo evento?", "cta_h2" => "Comece agora gratuitamente.", "cta_d" => "Não é necessário conta. Experimente em segundos.", "cta_btn" => "Criar evento agora",
         "meta_desc" => "Crie eventos e convide pessoas – sem registo.",
         "title_suffix" => "- O planeamento de eventos mais simples",
-    "sup_h" => "Nossos Apoiadores"
+    "sup_h" => "Nossos Apoiadores",
+    "cookiesInfo" => "Este site usa cookies para melhorar a experiência do usuário. Ao continuar, você concorda com o uso de cookies.",
+    "cookiesYes" => "Aceitar cookies",
+    "cookiesNo" => "Rejeitar cookies",
+    "privacy_policy" => "Política de Privacidade"
     ],
     "ru" => [
         "nav_feat" => "Функции", "nav_how" => "Как это работает", "nav_ben" => "Преимущества", "btn_create" => "Создать событие",
@@ -333,7 +381,11 @@ $translations = [
         "cta_h1" => "Готовы к вашему следующему событию?", "cta_h2" => "Начните сейчас бесплатно.", "cta_d" => "Учетная запись не требуется. Попробуйте за несколько секунд.", "cta_btn" => "Создать событие сейчас",
         "meta_desc" => "Создавайте события и приглашайте гостей – без регистрации.",
         "title_suffix" => "- Простейшее планирование событий",
-    "sup_h" => "Наши сторонники"
+    "sup_h" => "Наши сторонники",
+    "cookiesInfo" => "Этот веб-сайт использует файлы cookie для улучшения пользовательского опыта. Продолжая, вы соглашаетесь на использование файлов cookie.",
+    "cookiesYes" => "Принять файлы cookie",
+    "cookiesNo" => "Отклонить файлы cookie",
+    "privacy_policy" => "Политика конфиденциальности"
     ],
     "cs" => [
         "nav_feat" => "Funkce", "nav_how" => "Jak to funguje", "nav_ben" => "Výhody", "btn_create" => "Vytvořit událost",
@@ -357,7 +409,11 @@ $translations = [
         "cta_h1" => "Připraveni na vaši další událost?", "cta_h2" => "Začněte nyní zdarma.", "cta_d" => "Není nutný účet. Vyzkoušejte to během několika sekund.", "cta_btn" => "Vytvořit událost nyní",
         "meta_desc" => "Vytvářejte události a zvěte hosty – bez registrace.",
         "title_suffix" => "- Nejjednodušší plánování událostí",
-    "sup_h" => "Naši podporovatelé"
+    "sup_h" => "Naši podporovatelé",
+    "cookiesInfo" => "Tato webová stránka používá soubory cookie k vylepšení uživatelského zážitku. Pokračováním souhlasíte s používáním souborů cookie.",
+    "cookiesYes" => "Přijmout soubory cookie",
+    "cookiesNo" => "Odmítnout soubory cookie",
+    "privacy_policy" => "Zásady ochrany osobních údajů"
     ],
     "da" => [
         "nav_feat" => "Funktioner", "nav_how" => "Sådan fungerer det", "nav_ben" => "Fordele", "btn_create" => "Opret begivenhed",
@@ -381,7 +437,11 @@ $translations = [
         "cta_h1" => "Klar til din næste begivenhed?", "cta_h2" => "Start nu gratis.", "cta_d" => "Ingen konto nødvendig. Prøv det på få sekunder.", "cta_btn" => "Opret begivenhed nu",
         "meta_desc" => "Opret begivenheder og inviter gæster – uden registrering.",
         "title_suffix" => "- Den nemmeste begivenhedsplanlægning",
-    "sup_h" => "Vores Supportere"
+    "sup_h" => "Vores Supportere",
+    "cookiesInfo" => "Denne hjemmeside bruger cookies til at forbedre brugeroplevelsen. Ved at fortsætte accepterer du brugen af cookies.",
+    "cookiesYes" => "Accepter cookies",
+    "cookiesNo" => "Afvis cookies",
+    "privacy_policy" => "Privatlivspolitik"
     ],
     "et" => [
         "nav_feat" => "Funktsioonid", "nav_how" => "Kuidas see töötab", "nav_ben" => "Eelised", "btn_create" => "Loo sündmus",
@@ -405,7 +465,11 @@ $translations = [
         "cta_h1" => "Valmis oma järgmiseks sündmuseks?", "cta_h2" => "Alusta nüüd tasuta.", "cta_d" => "Kontot pole vaja. Proovi seda sekunditega.", "cta_btn" => "Loo sündmus kohe",
         "meta_desc" => "Loo sündmusi ja kutsu külalisi – ilma registreerimiseta.",
         "title_suffix" => "- Kõige lihtsam sündmuste planeerimine",
-    "sup_h" => "Meie toetajad"
+    "sup_h" => "Meie toetajad",
+    "cookiesInfo" => "See veebisait kasutab küpsiseid kasutajakogemuse parandamiseks. Jätkates nõustute küpsiste kasutamisega.",
+    "cookiesYes" => "Nõustu küpsistega",
+    "cookiesNo" => "Keeldu küpsistest",
+    "privacy_policy" => "Privaatsuspoliitika"
     ],
     "fi" => [
         "nav_feat" => "Ominaisuudet", "nav_how" => "Miten se toimii", "nav_ben" => "Edut", "btn_create" => "Luo tapahtuma",
@@ -429,7 +493,11 @@ $translations = [
         "cta_h1" => "Valmiina seuraavaan tapahtumaasi?", "cta_h2" => "Aloita nyt ilmaiseksi.", "cta_d" => "Tiliä ei tarvita. Kokeile sekunneissa.", "cta_btn" => "Luo tapahtuma nyt",
         "meta_desc" => "Luo tapahtumia ja kutsu vieraita – ilman rekisteröitymistä.",
         "title_suffix" => "- Helpoin tapahtumasuunnittelu",
-    "sup_h" => "Tukijamme"
+    "sup_h" => "Tukijamme",
+    "cookiesInfo" => "Tämä verkkosivusto käyttää evästeitä käyttökokemuksen parantamiseksi. Jatkamalla hyväksyt evästeiden käytön.",
+    "cookiesYes" => "Hyväksy evästeet",
+    "cookiesNo" => "Hylkää evästeet",
+    "privacy_policy" => "Tietosuojakäytäntö"
     ],
     "hu" => [
         "nav_feat" => "Funkciók", "nav_how" => "Így működik", "nav_ben" => "Előnyök", "btn_create" => "Esemény létrehozása",
@@ -453,7 +521,11 @@ $translations = [
         "cta_h1" => "Készen állsz a következő eseményedre?", "cta_h2" => "Indítsd el most ingyen.", "cta_d" => "Nincs szükség fiókra. Próbáld ki másodpercek alatt.", "cta_btn" => "Esemény létrehozása most",
         "meta_desc" => "Hozzon létre eseményeket és hívjon meg vendégeket – regisztráció nélkül.",
         "title_suffix" => "- A legegyszerűbb eseménytervezés",
-    "sup_h" => "Támogatóink"
+    "sup_h" => "Támogatóink",
+    "cookiesInfo" => "Ez a weboldal sütiket használ a felhasználói élmény javítására. A folytatással elfogadja a sütik használatát.",
+    "cookiesYes" => "Sütik elfogadása",
+    "cookiesNo" => "Sütik elutasítása",
+    "privacy_policy" => "Adatvédelmi irányelvek"
     ],
     "sr" => [
         "nav_feat" => "Funkcije", "nav_how" => "Kako funkcioniše", "nav_ben" => "Prednosti", "btn_create" => "Kreiraj događaj",
@@ -477,7 +549,11 @@ $translations = [
         "cta_h1" => "Spremni za vaš sledeći događaj?", "cta_h2" => "Započnite sada besplatno.", "cta_d" => "Nije potreban nalog. Isprobajte za nekoliko sekundi.", "cta_btn" => "Kreiraj događaj sada",
         "meta_desc" => "Kreirajte događaje i pozovite goste – bez registracije.",
         "title_suffix" => "- Najjednostavnije planiranje događaja",
-    "sup_h" => "Наши подржаваоци"
+    "sup_h" => "Наши подржаваоци",
+    "cookiesInfo" => "Овај веб-сајт користи колачиће за побољшање корисничког искуства. Наставком, слажете се са употребом колачића.",
+    "cookiesYes" => "Prihvati kolačiće",
+    "cookiesNo" => "Odbij kolačiće",
+    "privacy_policy" => "Политика приватности"
     ],
     "sk" => [
         "nav_feat" => "Funkcie", "nav_how" => "Ako to funguje", "nav_ben" => "Výhody", "btn_create" => "Vytvoriť udalosť",
@@ -501,7 +577,11 @@ $translations = [
         "cta_h1" => "Pripravení na vašu ďalšiu udalosť?", "cta_h2" => "Začnite teraz zadarmo.", "cta_d" => "Nie je potrebný účet. Vyskúšajte to v priebehu niekoľkých sekúnd.", "cta_btn" => "Vytvoriť udalosť teraz",
         "meta_desc" => "Vytvárajte udalosti a pozývajte hostí – bez registrácie.",
         "title_suffix" => "- Najjednoduchšie plánovanie udalostí",
-    "sup_h" => "Naši podporovatelia"
+    "sup_h" => "Naši podporovatelia",
+    "cookiesInfo" => "Táto webová stránka používa súbory cookie na zlepšenie používateľského zážitku. Pokračovaním súhlasíte s používaním súborov cookie.",
+    "cookiesYes" => "Prijať súbory cookie",
+    "cookiesNo" => "Odmietnuť súbory cookie",
+    "privacy_policy" => "Zásady ochrany osobných údajov"
     ],
     "sl" => [
         "nav_feat" => "Funkcije", "nav_how" => "Kako deluje", "nav_ben" => "Prednosti", "btn_create" => "Ustvari dogodek",
@@ -525,7 +605,11 @@ $translations = [
         "cta_h1" => "Pripravljeni na vaš naslednji dogodek?", "cta_h2" => "Začnite zdaj brezplačno.", "cta_d" => "Račun ni potreben. Preizkusite ga v nekaj sekundah.", "cta_btn" => "Ustvari dogodek zdaj",
         "meta_desc" => "Ustvarite dogodke in povabite goste – brez registracije.",
         "title_suffix" => "- Najenostavnejše načrtovanje dogodkov",
-    "sup_h" => "Naši podporniki"
+    "sup_h" => "Naši podporniki",
+    "cookiesInfo" => "To spletno mesto uporablja piškotke za izboljšanje uporabniške izkušnje. Z nadaljevanjem se strinjate z uporabo piškotkov.",
+    "cookiesYes" => "Sprejmi piškotke",
+    "cookiesNo" => "Zavrni piškotke",
+    "privacy_policy" => "Politika zasebnosti"
     ],
     "sv" => [
         "nav_feat" => "Funktioner", "nav_how" => "Så fungerar det", "nav_ben" => "Fördelar", "btn_create" => "Skapa evenemang",
@@ -549,7 +633,11 @@ $translations = [
         "cta_h1" => "Redo för ditt nästa evenemang?", "cta_h2" => "Starta nu gratis.", "cta_d" => "Inget konto behövs. Prova det på några sekunder.", "cta_btn" => "Skapa evenemang nu",
         "meta_desc" => "Skapa evenemang och bjud in gäster – utan registrering.",
         "title_suffix" => "- Den enklaste evenemangsplaneringen",
-    "sup_h" => "Våra supportrar"
+    "sup_h" => "Våra supportrar",
+    "cookiesInfo" => "Denna webbplats använder cookies för att förbättra användarupplevelsen. Genom att fortsätta godkänner du användningen av cookies.",
+    "cookiesYes" => "Acceptera cookies",
+    "cookiesNo" => "Avvisa kakor",
+    "privacy_policy" => "Sekretesspolicy"
     ],
     "no" => [
         "nav_feat" => "Funksjoner", "nav_how" => "Slik fungerer det", "nav_ben" => "Fordeler", "btn_create" => "Opprett arrangement",
@@ -573,7 +661,11 @@ $translations = [
         "cta_h1" => "Klar for ditt neste arrangement?", "cta_h2" => "Start nå gratis.", "cta_d" => "Ingen konto nødvendig. Prøv det på sekunder.", "cta_btn" => "Opprett arrangement nå",
         "meta_desc" => "Opprett arrangementer og inviter gjester – uten registrering.",
         "title_suffix" => "- Den enkleste arrangementsplanleggingen",
-    "sup_h" => "Våre supportere"
+    "sup_h" => "Våre supportere",
+    "cookiesInfo" => "Dette nettstedet bruker informasjonskapsler for å forbedre brukeropplevelsen. Ved å fortsette godtar du bruken av informasjonskapsler.",
+    "cookiesYes" => "Godta informasjonskapsler",
+    "cookiesNo" => "Avvis informasjonskapsler",
+    "privacy_policy" => "Personvernregler"
     ],
     "pl" => [
         "nav_feat" => "Funkcje", "nav_how" => "Jak to działa", "nav_ben" => "Zalety", "btn_create" => "Utwórz wydarzenie",
@@ -597,7 +689,11 @@ $translations = [
         "cta_h1" => "Gotowy na Twoje kolejne wydarzenie?", "cta_h2" => "Rozpocznij teraz bezpłatnie.", "cta_d" => "Konto nie jest potrzebne. Wypróbuj w kilka sekund.", "cta_btn" => "Utwórz wydarzenie teraz",
         "meta_desc" => "Twórz wydarzenia i zapraszaj gości – bez rejestracji.",
         "title_suffix" => "- Najprostsze planowanie wydarzeń",
-    "sup_h" => "Nasi Wspierający"
+    "sup_h" => "Nasi Wspierający",
+    "cookiesInfo" => "Ta strona internetowa używa plików cookie w celu poprawy komfortu użytkowania. Kontynuując, zgadzasz się na używanie plików cookie.",
+    "cookiesYes" => "Akceptuj pliki cookie",
+    "cookiesNo" => "Odrzuć pliki cookie",
+    "privacy_policy" => "Polityka prywatności"
     ],
     "bg" => [
         "nav_feat" => "Функции", "nav_how" => "Как работи", "nav_ben" => "Предимства", "btn_create" => "Създай събитие",
@@ -621,7 +717,11 @@ $translations = [
         "cta_h1" => "Готови ли сте за следващото си събитие?", "cta_h2" => "Започнете сега безплатно.", "cta_d" => "Не е необходим акаунт. Изпробвайте го за секунди.", "cta_btn" => "Създай събитие сега",
         "meta_desc" => "Създавайте събития и канете гости – без регистрация.",
         "title_suffix" => "- Най-лесното планиране на събития",
-    "sup_h" => "Нашите поддръжници"
+    "sup_h" => "Нашите поддръжници",
+    "cookiesInfo" => "Този уебсайт използва бисквитки за подобряване на потребителското изживяване. Продължавайки, вие се съгласявате с използването на бисквитки.",
+    "cookiesYes" => "Приемане на бисквитки",
+    "cookiesNo" => "Отхвърляне на бисквитки",
+    "privacy_policy" => "Политика за поверителност"
     ],
     "he" => [
         "nav_feat" => "תכונות", "nav_how" => "איך זה עובד", "nav_ben" => "יתרונות", "btn_create" => "צור אירוע",
@@ -645,7 +745,11 @@ $translations = [
         "cta_h1" => "מוכן לאירוע הבא שלך?", "cta_h2" => "התחל עכשיו בחינם.", "cta_d" => "אין צורך בחשבון. נסה תוך שניות.", "cta_btn" => "צור אירוע עכשיו",
         "meta_desc" => "צור אירועים והזמן אורחים – ללא הרשמה.",
         "title_suffix" => "- תכנון האירועים הפשוט ביותר",
-    "sup_h" => "התומכים שלנו"
+    "sup_h" => "התומכים שלנו",
+    "cookiesInfo" => "אתר זה משתמש בקובצי Cookie כדי לשפר את חווית המשתמש. על ידי המשך הגלישה, אתה מסכים לשימוש בקובצי Cookie.",
+    "cookiesYes" => "אשר קובצי Cookie",
+    "cookiesNo" => "דחה קובצי Cookie",
+    "privacy_policy" => "מדיניות פרטיות"
     ],
     "af" => [
         "nav_feat" => "Funksies", "nav_how" => "Hoe dit werk", "nav_ben" => "Voordele", "btn_create" => "Skep gebeurtenis",
@@ -669,7 +773,11 @@ $translations = [
         "cta_h1" => "Gereed vir jou volgende gebeurtenis?", "cta_h2" => "Begin nou gratis.", "cta_d" => "Geen rekening nodig nie. Probeer dit binne sekondes.", "cta_btn" => "Skep gebeurtenis nou",
         "meta_desc" => "Skep gebeurtenisse en nooi gaste uit – sonder registrasie.",
         "title_suffix" => "- Die eenvoudigste gebeurtenisbeplanning",
-    "sup_h" => "Ons Ondersteuners"
+    "sup_h" => "Ons Ondersteuners",
+    "cookiesInfo" => "Hierdie webwerf gebruik koekies om die gebruikerservaring te verbeter. Deur voort te gaan, stem u in tot die gebruik van koekies.",
+    "cookiesYes" => "Aanvaar koekies",
+    "cookiesNo" => "Weier koekies",
+    "privacy_policy" => "Privaatheidsbeleid"
     ],
     "ar" => [
         "nav_feat" => "الميزات", "nav_how" => "كيف يعمل", "nav_ben" => "الفوائد", "btn_create" => "إنشاء حدث",
@@ -693,7 +801,11 @@ $translations = [
         "cta_h1" => "هل أنت مستعد لحدثك التالي؟", "cta_h2" => "ابدأ الآن مجاناً.", "cta_d" => "لا يلزم وجود حساب. جربه في ثوانٍ.", "cta_btn" => "أنشئ حدثاً الآن",
         "meta_desc" => "أنشئ فعاليات وادعُ الضيوف - دون تسجيل.",
         "title_suffix" => "- أبسط تخطيط للفعاليات",
-    "sup_h" => "داعمونا"
+    "sup_h" => "داعمونا",
+    "cookiesInfo" => "يستخدم هذا الموقع ملفات تعريف الارتباط لتحسين تجربة المستخدم. من خلال الاستمرار، فإنك توافق على استخدام ملفات تعريف الارتباط.",
+    "cookiesYes" => "قبول ملفات تعريف الارتباط",
+    "cookiesNo" => "رفض ملفات تعريف الارتباط",
+    "privacy_policy" => "سياسة الخصوصية"
     ],
     "zh" => [
         "nav_feat" => "功能", "nav_how" => "工作原理", "nav_ben" => "优势", "btn_create" => "创建活动",
@@ -717,7 +829,11 @@ $translations = [
         "cta_h1" => "准备好迎接您的下一个活动了吗？", "cta_h2" => "立即免费开始。", "cta_d" => "无需账户。几秒钟即可试用。", "cta_btn" => "立即创建活动",
         "meta_desc" => "创建活动并邀请客人 – 无需注册。",
         "title_suffix" => "- 最简单的活动规划",
-    "sup_h" => "我们的支持者"
+    "sup_h" => "我们的支持者",
+    "cookiesInfo" => "本网站使用Cookie来改善用户体验。继续浏览即表示您同意使用Cookie。",
+    "cookiesYes" => "接受 Cookie",
+    "cookiesNo" => "拒绝 Cookie",
+    "privacy_policy" => "隐私政策"
     ],
     "hi" => [
         "nav_feat" => "विशेषताएँ", "nav_how" => "यह कैसे काम करता है", "nav_ben" => "फ़ायदे", "btn_create" => "इवेंट बनाएँ",
@@ -741,7 +857,11 @@ $translations = [
         "cta_h1" => "अपने अगले इवेंट के लिए तैयार हैं?", "cta_h2" => "अभी मुफ़्त में शुरू करें।", "cta_d" => "अकाउंट की आवश्यकता नहीं। कुछ ही सेकंड में इसे आज़माएँ।", "cta_btn" => "अभी इवेंट बनाएँ",
         "meta_desc" => "इवेंट बनाएँ और मेहमानों को आमंत्रित करें - बिना पंजीकरण के।",
         "title_suffix" => "- सबसे आसान इवेंट प्लानिंग",
-    "sup_h" => "हमारे समर्थक"
+    "sup_h" => "हमारे समर्थक",
+    "cookiesInfo" => "यह वेबसाइट उपयोगकर्ता अनुभव को बेहतर बनाने के लिए कुकीज़ का उपयोग करती है। जारी रखकर, आप कुकीज़ के उपयोग के लिए सहमत हैं।",
+    "cookiesYes" => "कुकीज़ स्वीकार करें",
+    "cookiesNo" => "कुकीज़ अस्वीकार करें",
+    "privacy_policy" => "गोपनीयता नीति"
     ],
     "bn" => [
         "nav_feat" => "বৈশিষ্ট্য", "nav_how" => "কীভাবে কাজ করে", "nav_ben" => "সুবিধাগুলি", "btn_create" => "ইভেন্ট তৈরি করুন",
@@ -765,7 +885,11 @@ $translations = [
         "cta_h1" => "আপনার পরবর্তী ইভেন্টের জন্য প্রস্তুত?", "cta_h2" => "এখন বিনামূল্যে শুরু করুন।", "cta_d" => "কোনো অ্যাকাউন্টের প্রয়োজন নেই। কয়েক সেকেন্ডের মধ্যে এটি চেষ্টা করুন।", "cta_btn" => "এখনই ইভেন্ট তৈরি করুন",
         "meta_desc" => "ইভেন্ট তৈরি করুন এবং অতিথিদের আমন্ত্রণ জানান - নিবন্ধন ছাড়াই।",
         "title_suffix" => "- সবচেয়ে সহজ ইভেন্ট পরিকল্পনা",
-    "sup_h" => "আমাদের সমর্থকরা"
+    "sup_h" => "আমাদের সমর্থকরা",
+    "cookiesInfo" => "এই ওয়েবসাইটটি ব্যবহারকারীর অভিজ্ঞতা উন্নত করতে কুকিজ ব্যবহার করে। চালিয়ে যাওয়ার মাধ্যমে, আপনি কুকিজ ব্যবহারে সম্মত হন।",
+    "cookiesYes" => "কুকিজ গ্রহণ করুন",
+    "cookiesNo" => "কুকিজ প্রত্যাখ্যান করুন",
+    "privacy_policy" => "গোপনীয়তা নীতি"
     ]
     // Hier können weitere Sprachen wie 'fr', 'it' etc. nach demselben Muster hinzugefügt werden.
     // Falls eine Sprache fehlt, wird automatisch Englisch (t_en) verwendet.
@@ -1097,6 +1221,7 @@ foreach ($languages as $langData) {
                 <a target="_blank" href="https://devhunt.org" class="inline-flex items-center justify-center px-5 py-3 border border-black text-base text-2xl font-black rounded-md text-black bg-white hover:bg-gray-50 sm:w-auto transition">DevHunt</a>
                 <a target="_blank" href="https://toolsfine.com" class="inline-flex items-center justify-center px-5 py-3 border border-black text-base text-2xl font-black rounded-md text-black bg-white hover:bg-gray-50 sm:w-auto transition">toolsfine</a>
                 <a target="_blank" href="https://open-launch.com/" class="inline-flex items-center justify-center px-5 py-3 border border-black text-base text-2xl font-black rounded-md text-black bg-white hover:bg-gray-50 sm:w-auto transition">Open Launch</a>
+                <a target="_blank" href="https://ideakiln.com/" class="inline-flex items-center justify-center px-5 py-3 border border-black text-base text-2xl font-black rounded-md text-black bg-white hover:bg-gray-50 sm:w-auto transition">Idea Kiln</a>
             </div>
         </div>
     </section>
@@ -1105,6 +1230,7 @@ foreach ($languages as $langData) {
     <footer class="bg-gray-50 border-t border-gray-200">
         <div class="max-w-7xl mx-auto py-12 px-4 sm:px-6 md:flex md:items-center md:justify-between lg:px-8">
             <div class="flex justify-center space-x-6 md:order-2">
+                <a href="/datenschutz" class="text-gray-400 hover:text-gray-500">{$currentTrans['privacy_policy']}</a>
                 <a href="#" class="text-gray-400 hover:text-gray-500"><span class="sr-only">Instagram</span><i class="fa-brands fa-instagram text-xl"></i></a>
                 <a href="#" class="text-gray-400 hover:text-gray-500"><span class="sr-only">Twitter</span><i class="fa-brands fa-twitter text-xl"></i></a>
                 <a href="#" class="text-gray-400 hover:text-gray-500"><span class="sr-only">Email</span><i class="fa-solid fa-envelope text-xl"></i></a>
@@ -1114,6 +1240,15 @@ foreach ($languages as $langData) {
             </div>
         </div>
     </footer>
+    
+    
+	<div id="cookieOverlay" style="display:none; position: fixed; bottom: 0; left: 0; width: 100%; background-color: #f0f0f0; padding: 20px; text-align: center; box-shadow: 0 -2px 10px rgba(0,0,0,0.1);">
+		<p>{$currentTrans['cookiesInfo']}</p>
+		<button id="acceptCookies" style="background-color: #4CAF50; color: white; padding: 10px 20px; border: none; cursor: pointer; margin-right: 10px;">{$currentTrans['cookiesYes']}</button>
+		<button id="declineCookies" style="background-color: #f44336; color: white; padding: 10px 20px; border: none; cursor: pointer;">{$currentTrans['cookiesNo']}</button>
+		<a href="/datenschutz" style="margin-left: 15px; color: #333;">{$currentTrans['privacy_policy']}</a>
+	</div>
+
 
     <script>
         document.querySelectorAll('a[href^="#"]').forEach(anchor => {
@@ -1156,6 +1291,7 @@ foreach ($languages as $langData) {
 			
     </script>
     <script defer src="https://cloud.umami.is/script.js" data-website-id="4d3f573f-5598-43dd-b737-56d09fb03875"></script>
+    <script src="consent.js" defer></script>
 </body>
 </html>
 HTML;
